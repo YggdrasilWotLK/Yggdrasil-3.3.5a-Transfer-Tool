@@ -1,6 +1,0 @@
-VER 3 0100000000000002 " lockpicking" "INV_Misc_QuestionMark"
-/2 lvl 200 lockpicking  looking for practice  on sw bank steps no tips necessary
-END
-VER 3 0100000000000001 "chicken" "Ability_Creature_Cursed_02"
-/chicken
-END

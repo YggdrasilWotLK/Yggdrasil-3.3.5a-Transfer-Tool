@@ -1,3 +1,0 @@
-VER 3 0100000000000001 "nfweqf" "INV_Misc_QuestionMark"
-/2 anyone know the latest version of aucioneer
-END

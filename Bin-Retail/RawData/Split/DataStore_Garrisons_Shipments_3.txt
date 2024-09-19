@@ -1,6 +1,0 @@
-},
-}
-DataStore_Garrisons_Options = {
-["ReportUncollected"] = true,
-["ReportLevel"] = 400,
-}

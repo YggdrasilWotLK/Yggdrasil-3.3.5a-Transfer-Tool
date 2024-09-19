@@ -1,3 +1,0 @@
-DataStore_Garrisons_Characters = {
-{
-["lastUpdate"] = 1723652329,

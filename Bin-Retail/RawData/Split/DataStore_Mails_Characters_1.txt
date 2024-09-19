@@ -1,6 +1,0 @@
-DataStore_Mails_Characters = {
-{
-["Mails"] = {
-},
-["MailCache"] = {
-},

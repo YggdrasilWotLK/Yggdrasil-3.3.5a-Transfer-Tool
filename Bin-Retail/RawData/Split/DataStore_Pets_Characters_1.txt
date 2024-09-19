@@ -1,3 +1,0 @@
-DataStore_Pets_Characters = {
-{
-["lastUpdate"] = 1723652328,

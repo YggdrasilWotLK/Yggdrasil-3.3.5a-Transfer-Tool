@@ -1,2 +1,0 @@
-}
-DataStore_Garrisons_CovenantSanctum = {

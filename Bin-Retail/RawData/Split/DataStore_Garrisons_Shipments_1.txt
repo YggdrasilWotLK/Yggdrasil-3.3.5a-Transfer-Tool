@@ -1,6 +1,0 @@
-["artifactResearchNumReady"] = 0,
-["artifactResearchDuration"] = 0,
-["artifactResearchCreationTime"] = 0,
-["artifactResearchNumTotal"] = 0,
-},
-{
