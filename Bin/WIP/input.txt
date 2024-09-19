@@ -1,0 +1,329 @@
+
+EveryQuestDBPC = nil
+EQ2DBPC = {
+	["namespaces"] = {
+		["QuestGivers"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Metallsixnos - Redemption"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["history"] = {
+				[4500] = {
+					[24584] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[3518] = {
+					[9962] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9967] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9970] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[1196] = {
+					[13131] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13132] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[215] = {
+					[755] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[771] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[772] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24857] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[743] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[3376] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[745] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[761] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[746] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[747] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[763] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[748] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[766] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[767] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[752] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[753] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[1656] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[757] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[-370] = {
+					[12492] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[3483] = {
+					[10289] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[10120] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[9407] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[-1001] = {
+					[8744] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[8769] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[8788] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[6961] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[8803] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[8768] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4493] = {
+					[24579] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4809] = {
+					[24511] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[-263] = {
+					[5930] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[6002] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[27] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[3094] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[5932] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[5922] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[210] = {
+					[24810] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4812] = {
+					[24880] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24869] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24873] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24832] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24870] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24874] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24833] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24826] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24875] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24872] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24877] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24815] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4273] = {
+					[24585] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[24587] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4197] = {
+					[13199] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13201] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13192] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13194] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13200] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13202] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13191] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13193] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13180] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+					[13178] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+				[4813] = {
+					[24682] = {
+						["status"] = 2,
+						["imported"] = 3,
+					},
+				},
+			},
+			["zoneid"] = -263,
+			["enabledfilters"] = {
+				["Status"] = true,
+				["Type"] = true,
+				["Level"] = true,
+			},
+			["filters"] = {
+				["Alliance"] = true,
+			},
+			["zonegroup"] = "Classes",
+		},
+	},
+}

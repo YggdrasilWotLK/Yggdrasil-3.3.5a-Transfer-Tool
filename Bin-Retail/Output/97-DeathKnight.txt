@@ -1,0 +1,4 @@
+
+.mod money -1073480
+/in 60 /s #ti3j5kfo0s
+.additem 37742 -42

@@ -1,0 +1,5 @@
+{
+},
+}
+DataStore_Crafts_RecipeCategories = {
+}

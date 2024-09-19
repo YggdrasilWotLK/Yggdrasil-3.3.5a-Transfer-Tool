@@ -1,0 +1,208 @@
+[162] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 800,
+["tooltip"] = "+800 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+800 XP",
+},
+},
+[135] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 100,
+["tooltip"] = "+100 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+100 XP",
+},
+},
+[232] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1050,
+["tooltip"] = "+1,050 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,050 XP",
+},
+},
+[151] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 400,
+["tooltip"] = "+400 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+400 XP",
+},
+},
+[372] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1000,
+["tooltip"] = "+1,000 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,000 XP",
+},
+},
+[163] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 800,
+["tooltip"] = "+800 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+800 XP",
+},
+},
+[373] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 1200,
+["tooltip"] = "+1,200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+1,200 XP",
+},
+},
+[148] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 300,
+["tooltip"] = "+300 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+300 XP",
+},
+},
+[191] = {
+{
+["icon"] = 1005027,
+["quantity"] = 42,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[230] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 750,
+["tooltip"] = "+750 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+750 XP",
+},
+},
+[141] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[468] = {
+{
+["icon"] = 970886,
+["quantity"] = 50,
+["title"] = "Currency Reward",
+["currencyID"] = 821,
+},
+},
+[180] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 800,
+["tooltip"] = "+800 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+800 XP",
+},
+},
+[329] = {
+{
+["itemID"] = 118474,
+["quantity"] = 1,
+},
+},
+[161] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 700,
+["tooltip"] = "+700 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+700 XP",
+},
+},
+[222] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 300,
+["tooltip"] = "+300 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+300 XP",
+},
+},
+[153] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 500,
+["tooltip"] = "+500 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+500 XP",
+},
+},
+[142] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 200,
+["tooltip"] = "+200 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+200 XP",
+},
+},
+[208] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 600,
+["tooltip"] = "+600 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+600 XP",
+},
+{
+["icon"] = 1005027,
+["quantity"] = 125,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+[223] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 450,
+["tooltip"] = "+450 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+450 XP",
+},
+},
+[154] = {
+{
+["title"] = "Bonus Follower XP",
+["followerXP"] = 500,
+["tooltip"] = "+500 XP",
+["icon"] = "Interface\\Icons\\XPBonus_Icon",
+["name"] = "+500 XP",
+},
+},
+[189] = {
+{
+["title"] = "Currency Reward",
+["quantity"] = 38,
+["icon"] = 1005027,
+["currencyID"] = 824,
+},
+},
+[176] = {
+{
+["icon"] = 1005027,
+["quantity"] = 36,
+["title"] = "Currency Reward",
+["currencyID"] = 824,
+},
+},
+},
+["Durations"] = {

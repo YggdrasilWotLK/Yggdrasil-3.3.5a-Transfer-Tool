@@ -1,0 +1,90 @@
+
+DataStore_Currencies_Characters = {
+{
+["Currencies"] = {
+6553857,
+3146242,
+262914,
+},
+["Totals"] = {
+[515] = 12,
+[402] = 1,
+[1166] = 25,
+},
+["lastUpdate"] = 1723510155,
+},
+{
+["Currencies"] = {
+1049090,
+1836040,
+},
+["Totals"] = {
+[515] = 4,
+[1704] = 7,
+},
+["lastUpdate"] = 1723512251,
+},
+{
+["Currencies"] = {
+},
+["lastUpdate"] = 1723512212,
+},
+}
+DataStore_Currencies_Catalog = {
+["List"] = {
+"Timewarped Badge",
+"Darkmoon Prize Ticket",
+"Ironpaw Token",
+"Spirit Shard",
+},
+["Count"] = 4,
+["Set"] = {
+["Darkmoon Prize Ticket"] = 2,
+["Ironpaw Token"] = 3,
+["Spirit Shard"] = 4,
+["Timewarped Badge"] = 1,
+},
+}
+DataStore_Currencies_Info = {
+463446,
+134481,
+134912,
+133286,
+}
+DataStore_Currencies_Max = {
+[515] = 0,
+[402] = 0,
+[1166] = 0,
+[1704] = 200,
+}
+DataStore_Currencies_Headers = {
+["List"] = {
+"Dungeon and Raid",
+"Miscellaneous",
+"Legacy",
+"Battle for Azeroth",
+"Warlords of Draenor",
+"Mists of Pandaria",
+"Wrath of the Lich King",
+"Burning Crusade",
+},
+["Count"] = 8,
+["Set"] = {
+["Battle for Azeroth"] = 4,
+["Burning Crusade"] = 8,
+["Warlords of Draenor"] = 5,
+["Wrath of the Lich King"] = 7,
+["Mists of Pandaria"] = 6,
+["Legacy"] = 3,
+["Miscellaneous"] = 2,
+["Dungeon and Raid"] = 1,
+},
+}
+DataStore_Currencies_Archeology = {
+{
+},
+{
+},
+{
+},
+}

@@ -1,0 +1,3 @@
+.setskill 433 1
+.setskill 293 1
+.setskill 413 1

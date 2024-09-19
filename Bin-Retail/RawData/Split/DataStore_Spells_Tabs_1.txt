@@ -1,0 +1,7 @@
+["DEATHKNIGHT"] = {
+"General",
+"Death Knight",
+"Blood",
+"Frost",
+"Unholy",
+},

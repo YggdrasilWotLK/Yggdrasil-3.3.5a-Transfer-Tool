@@ -1,0 +1,1 @@
+.send items Deathhalo "Professions" "Hi! We see that you had one Grand Master profession previously. In order to select your new professions here, please find the enclosed emblems. You can exchange these at the Mall's Scientist to get a 450/450 profession of your choosing." 49426:100

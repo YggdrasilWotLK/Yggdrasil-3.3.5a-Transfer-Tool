@@ -1,0 +1,12 @@
+["Set"] = {
+["Brawler's Gold"] = 5,
+["Lesser Charm of Good Fortune"] = 8,
+["Garrison Resources"] = 7,
+["Apexis Crystal"] = 6,
+["Spirit Shard"] = 4,
+["Darkmoon Prize Ticket"] = 2,
+["Ironpaw Token"] = 3,
+["Champion's Seal"] = 9,
+["Timewarped Badge"] = 1,
+},
+["Count"] = 9,

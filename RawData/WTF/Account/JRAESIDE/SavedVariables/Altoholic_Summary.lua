@@ -1,0 +1,22 @@
+
+Altoholic_SummaryTab_Options = {
+["CurrentMode"] = 1,
+["CurrentMisc"] = 0,
+["CurrentLevels"] = 1,
+["CurrentColumn"] = "Name",
+["CurrentTradeSkill"] = 0,
+["CurrentAltGroup"] = 0,
+["CurrentLevelsMax"] = 70,
+["CurrentLevelsMin"] = 1,
+["CurrentBankType"] = 0,
+["ShowGuildRank"] = false,
+["UseColorForTradeSkills"] = true,
+["CurrentRealms"] = 2,
+["CurrentRaces"] = 0,
+["ShowILevelDecimals"] = true,
+["CurrentClasses"] = 0,
+["CurrentFactions"] = 3,
+["ShowLevelDecimals"] = true,
+["ShowRestXP150pc"] = false,
+["SortAscending"] = true,
+}

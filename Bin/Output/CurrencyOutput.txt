@@ -1,0 +1,20 @@
+.additem 45624 0
+.additem 49426 1257
+.additem 40752 0
+.additem 47241 2229
+.additem 40753 0
+.additem 29434 495
+.additem 44990 172
+.additem 43016 566
+.additem 37711 0
+.additem 0
+.additem 20560 0
+.additem 20559 39
+.additem 43307 1111
+.additem 29024 58
+.additem 43308 75000
+.additem 43228 3763
+.additem 20558 50
+.additem 43589 107
+.additem 0 -99
+.additem 37742 -9999

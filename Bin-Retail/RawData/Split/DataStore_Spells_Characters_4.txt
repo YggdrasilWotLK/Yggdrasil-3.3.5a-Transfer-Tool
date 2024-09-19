@@ -1,0 +1,30 @@
+},
+{
+["englishClass"] = "DRUID",
+},
+}
+DataStore_Spells_Tabs = {
+["DEATHKNIGHT"] = {
+"General",
+"Death Knight",
+"Blood",
+"Frost",
+"Unholy",
+},
+["DRUID"] = {
+},
+["WARLOCK"] = {
+"General",
+"Warlock",
+"Destruction",
+"Affliction",
+"Demonology",
+},
+["ROGUE"] = {
+"General",
+"Rogue",
+"Outlaw",
+"Assassination",
+"Subtlety",
+},
+}

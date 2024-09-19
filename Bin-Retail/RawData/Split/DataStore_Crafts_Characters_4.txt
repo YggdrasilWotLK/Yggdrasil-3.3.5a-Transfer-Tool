@@ -1,0 +1,23 @@
+},
+{
+["Professions"] = {
+},
+["Indices"] = {
+},
+["Ranks"] = {
+},
+},
+}
+DataStore_Crafts_ArcheologyItems = {
+{
+[88909] = true,
+},
+{
+},
+{
+},
+{
+},
+}
+DataStore_Crafts_RecipeCategories = {
+}

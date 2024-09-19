@@ -1,0 +1,7 @@
+
+.character changerace Deathhalo
+.character changefaction Deathhalo
+.character customize Deathhalo
+.unlearn 53140
+.unlearn 61721
+.unlearn 59390

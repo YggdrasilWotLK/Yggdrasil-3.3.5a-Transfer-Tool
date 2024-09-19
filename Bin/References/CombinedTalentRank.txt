@@ -1,0 +1,2364 @@
+Column 1,Spell.txt Column 137,Index,Spell.txt Column 209
+long,str,1,class
+27,Improved Fire Blast,1,3
+1141,Incineration,1,3
+26,Improved Fireball,1,3
+34,Ignite,1,3
+2212,Burning Determination,1,3
+31,World in Flames,1,3
+28,Flame Throwing,1,3
+30,Impact,1,3
+29,Pyroblast,1,3
+23,Burning Soul,1,3
+25,Improved Scorch,1,3
+24,Molten Shields,1,3
+1639,Master of Elements,1,3
+1730,Playing with Fire,1,3
+33,Critical Mass,1,3
+32,Blast Wave,1,3
+1731,Blazing Speed,1,3
+35,Fire Power,1,3
+1733,Pyromaniac,1,3
+36,Combustion,1,3
+1732,Molten Fury,1,3
+1848,Fiery Payback,1,0
+1734,Empowered Fire,1,3
+1849,Firestarter,1,3
+1735,Dragon's Breath,1,3
+1850,Hot Streak,1,3
+1851,Burnout,1,3
+1852,Living Bomb,1,3
+38,Frostbite,1,3
+37,Improved Frostbolt,1,3
+62,Ice Floes,1,3
+73,Ice Shards,1,3
+70,Frost Warding,1,3
+1649,Precision,1,3
+65,Permafrost,1,3
+61,Piercing Ice,1,3
+69,Icy Veins,1,3
+63,Improved Blizzard,1,3
+741,Arctic Reach,1,3
+66,Frost Channeling,1,3
+67,Shatter,1,3
+72,Cold Snap,1,3
+64,Improved Cone of Cold,1,3
+1736,Frozen Core,1,3
+1737,Cold as Ice,1,3
+68,Winter's Chill,1,3
+2214,Shattered Barrier,1,3
+71,Ice Barrier,1,3
+1738,Arctic Winds,1,3
+1740,Empowered Frostbolt,1,3
+1853,Fingers of Frost,1,3
+1854,Brain Freeze,1,3
+1741,Summon Water Elemental,1,3
+1855,Enduring Winter,1,3
+1856,Chilled to the Bone,1,3
+1857,Deep Freeze,1,3
+74,Arcane Subtlety,1,3
+76,Arcane Focus,1,3
+80,Arcane Stability,1,3
+85,Arcane Fortitude,1,0
+1650,Magic Absorption,1,3
+75,Arcane Concentration,1,3
+82,Magic Attunement,1,3
+81,Spell Impact,1,3
+1845,Student of the Mind,1,0
+2211,Focus Magic,1,3
+83,Arcane Shielding,1,3
+88,Improved Counterspell,1,3
+1142,Arcane Meditation,1,0
+2222,Torment the Weak,1,0
+1724,Improved Blink,1,3
+86,Presence of Mind,1,3
+77,Arcane Mind,1,0
+1726,Prismatic Cloak,1,3
+421,Arcane Instability,1,3
+1725,Arcane Potency,1,3
+1727,Arcane Empowerment,1,3
+87,Arcane Power,1,3
+1844,Incanter's Absorption,1,0
+1843,Arcane Flows,1,3
+1728,Mind Mastery,1,3
+1729,Slow,1,3
+2209,Missile Barrage,1,3
+1846,Netherwind Presence,1,3
+1826,Spell Power,1,3
+1847,Arcane Barrage,1,3
+124,Improved Heroic Strike,1,4
+130,Deflection,1,0
+127,Improved Rend,1,4
+126,Improved Charge,1,4
+641,Iron Will,1,0
+128,Tactical Mastery,1,4
+131,Improved Overpower,1,4
+137,Anger Management,1,0
+662,Impale,1,4
+121,Deep Wounds,1,4
+136,Two-Handed Weapon Specialization,1,0
+2232,Taste for Blood,1,4
+132,Poleaxe Specialization,1,0
+133,Sweeping Strikes,1,4
+125,Mace Specialization,1,0
+123,Sword Specialization,1,0
+134,Weapon Mastery,1,4
+129,Improved Hamstring,1,4
+1859,Trauma,1,0
+1663,Second Wind,1,4
+135,Mortal Strike,1,4
+1862,Strength of Arms,1,0
+2233,Improved Slam,1,4
+2283,Juggernaut,1,4
+1824,Improved Mortal Strike,1,4
+1860,Unrelenting Assault,1,4
+1662,Sudden Death,1,0
+1661,Endless Rage,1,4
+1664,Blood Frenzy,1,4
+2231,Wrecking Crew,1,0
+1863,Bladestorm,1,4
+142,Improved Bloodrage,1,4
+1601,Shield Specialization,1,4
+141,Improved Thunder Clap,1,4
+144,Incite,1,4
+138,Anticipation,1,0
+153,Last Stand,1,4
+147,Improved Revenge,1,4
+1654,Shield Mastery,1,4
+140,Toughness,1,4
+2247,Improved Spell Reflection,1,4
+151,Improved Disarm,1,4
+146,Puncture,1,4
+150,Improved Disciplines,1,4
+152,Concussion Blow,1,4
+149,Gag Order,1,4
+702,One-Handed Weapon Specialization,1,0
+1652,Improved Defensive Stance,1,0
+148,Vigilance,1,0
+1660,Focused Rage,1,4
+1653,Vitality,1,0
+1870,Safeguard,1,4
+2236,Warbringer,1,4
+1666,Devastate,1,4
+1893,Critical Block,1,4
+1871,Sword and Board,1,4
+2246,Damage Shield,1,4
+1872,Shockwave,1,4
+2250,Armored to the Teeth,1,4
+158,Booming Voice,1,4
+157,Cruelty,1,0
+161,Improved Demoralizing Shout,1,4
+159,Unbridled Wrath,1,0
+166,Improved Cleave,1,4
+160,Piercing Howl,1,4
+661,Blood Craze,1,0
+154,Commanding Presence,1,4
+1581,Dual Wield Specialization,1,4
+1542,Improved Execute,1,4
+155,Enrage,1,4
+1657,Precision,1,0
+165,Death Wish,1,4
+1543,Improved Intercept,1,4
+1541,Improved Berserker Rage,1,4
+156,Flurry,1,0
+1864,Intensify Rage,1,4
+167,Bloodthirst,1,4
+1655,Improved Whirlwind,1,4
+1865,Furious Attacks,1,0
+1658,Improved Berserker Stance,1,4
+1868,Heroic Fury,1,0
+1659,Rampage,1,4
+1866,Bloodsurge,1,4
+2234,Unending Fury,1,4
+1867,Titan's Grip,1,4
+203,Improved Gouge,1,8
+201,Improved Sinister Strike,1,8
+221,Dual Wield Specialization,1,8
+1827,Improved Slice and Dice,1,8
+187,Deflection,1,0
+181,Precision,1,0
+204,Endurance,1,8
+301,Riposte,1,8
+182,Close Quarters Combat,1,0
+206,Improved Kick,1,8
+222,Improved Sprint,1,8
+186,Lightning Reflexes,1,0
+1122,Aggression,1,8
+184,Mace Specialization,1,0
+223,Blade Flurry,1,8
+242,Hack and Slash,1,0
+1703,Weapon Expertise,1,0
+1706,Blade Twisting,1,8
+1705,Vitality,1,0
+205,Adrenaline Rush,1,8
+1707,Nerves of Steel,1,0
+2072,Throwing Specialization,1,8
+1825,Combat Potency,1,8
+2073,Unfair Advantage,1,0
+1709,Surprise Attacks,1,8
+2074,Savage Combat,1,8
+2075,Prey on the Weak,1,0
+2076,Killing Spree,1,8
+276,Improved Eviscerate,1,8
+272,Remorseless Attacks,1,0
+270,Malice,1,0
+273,Ruthlessness,1,8
+2068,Blood Spatter,1,8
+277,Puncturing Wounds,1,8
+382,Vigor,1,8
+278,Improved Expose Armor,1,8
+269,Lethality,1,8
+682,Vile Poisons,1,8
+268,Improved Poisons,1,8
+1721,Fleet Footed,1,0
+280,Cold Blood,1,8
+279,Improved Kidney Shot,1,8
+1762,Quick Recovery,1,8
+283,Seal Fate,1,8
+274,Murder,1,8
+2065,Deadly Brew,1,8
+281,Overkill,1,0
+1723,Deadened Nerves,1,8
+2069,Focused Attacks,1,0
+1718,Find Weakness,1,8
+1715,Master Poisoner,1,8
+1719,Mutilate,1,8
+2066,Turn the Tables,1,0
+2070,Cut to the Chase,1,8
+2071,Hunger For Blood,1,8
+2244,Relentless Strikes,1,8
+241,Master of Deception,1,0
+261,Opportunity,1,8
+1700,Sleight of Hand,1,8
+262,Dirty Tricks,1,8
+244,Camouflage,1,8
+247,Elusiveness,1,8
+303,Ghostly Strike,1,8
+1123,Serrated Blades,1,8
+246,Setup,1,0
+245,Initiative,1,8
+263,Improved Ambush,1,8
+1701,Heightened Senses,1,0
+284,Preparation,1,8
+265,Dirty Deeds,1,8
+681,Hemorrhage,1,8
+1713,Master of Subtlety,1,0
+1702,Deadliness,1,0
+1711,Enveloping Shadows,1,0
+381,Premeditation,1,8
+1722,Cheat Death,1,8
+1712,Sinister Calling,1,8
+2077,Waylay,1,8
+2078,Honor Among Thieves,1,0
+1714,Shadowstep,1,8
+2079,Filthy Tricks,1,8
+2080,Slaughter from the Shadows,1,8
+2081,Shadow Dance,1,8
+342,Unbreakable Will,1,0
+1898,Twin Disciplines,1,6
+352,Silent Resolve,1,6
+346,Improved Inner Fire,1,6
+344,Improved Power Word: Fortitude,1,6
+321,Martyrdom,1,0
+347,Meditation,1,0
+348,Inner Focus,1,6
+343,Improved Power Word: Shield,1,6
+1769,Absolution,1,6
+341,Mental Agility,1,6
+350,Improved Mana Burn,1,6
+2268,Reflective Shield,1,6
+1201,Mental Strength,1,0
+351,Soul Warding,1,6
+1771,Focused Power,1,6
+1772,Enlightenment,1,6
+1858,Focused Will,1,0
+322,Power Infusion,1,6
+1773,Improved Flash Heal,1,6
+2235,Renewed Hope,1,6
+1896,Rapture,1,6
+1894,Aspiration,1,6
+1895,Divine Aegis,1,6
+1774,Pain Suppression,1,6
+1901,Grace,1,6
+1202,Borrowed Time,1,6
+1897,Penance,1,6
+410,Healing Focus,1,6
+406,Improved Renew,1,6
+401,Holy Specialization,1,6
+411,Spell Warding,1,6
+1181,Divine Fury,1,6
+442,Desperate Prayer,1,6
+1636,Blessed Recovery,1,6
+361,Inspiration,1,6
+1635,Holy Reach,1,6
+408,Improved Healing,1,6
+403,Searing Light,1,6
+413,Healing Prayers,1,6
+1561,Spirit of Redemption,1,6
+402,Spiritual Guidance,1,6
+1766,Surge of Light,1,6
+404,Spiritual Healing,1,6
+1768,Holy Concentration,1,6
+1637,Lightwell,1,6
+1765,Blessed Resilience,1,6
+2279,Body and Soul,1,6
+1767,Empowered Healing,1,6
+1904,Serendipity,1,6
+1902,Empowered Renew,1,6
+1815,Circle of Healing,1,6
+1903,Test of Faith,1,6
+1905,Divine Providence,1,6
+1911,Guardian Spirit,1,6
+465,Spirit Tap,1,0
+2027,Improved Spirit Tap,1,6
+462,Darkness,1,6
+466,Shadow Affinity,1,6
+482,Improved Shadow Word: Pain,1,6
+463,Shadow Focus,1,6
+542,Improved Psychic Scream,1,6
+481,Improved Mind Blast,1,6
+501,Mind Flay,1,6
+483,Veiled Shadows,1,6
+881,Shadow Reach,1,6
+461,Shadow Weaving,1,6
+541,Silence,1,6
+484,Vampiric Embrace,1,6
+1638,Improved Vampiric Embrace,1,6
+1777,Focused Mind,1,6
+1781,Mind Melt,1,6
+2267,Improved Devouring Plague,1,6
+521,Shadowform,1,6
+1778,Shadow Power,1,6
+1906,Improved Shadowform,1,6
+1816,Misery,1,6
+1908,Psychic Horror,1,6
+1779,Vampiric Touch,1,6
+1909,Pain and Suffering,1,6
+1907,Twisted Faith,1,6
+1910,Dispersion,1,6
+564,Convection,1,11
+563,Concussion,1,11
+561,Call of Flame,1,11
+1640,Elemental Warding,1,11
+1645,Elemental Devastation,1,11
+575,Reverberation,1,11
+574,Elemental Focus,1,11
+565,Elemental Fury,1,11
+567,Improved Fire Nova,1,11
+1642,Eye of the Storm,1,11
+1641,Elemental Reach,1,11
+562,Call of Thunder,1,11
+1682,Unrelenting Storm,1,11
+1685,Elemental Precision,1,11
+721,Lightning Mastery,1,11
+573,Elemental Mastery,1,11
+2052,"Storm, Earth and Fire",1,11
+2262,Booming Echoes,1,11
+2049,Elemental Oath,1,11
+1686,Lightning Overload,1,11
+2050,Astral Shift,1,11
+1687,Totem of Wrath,1,11
+2051,Lava Flows,1,11
+2252,Shamanism,1,11
+2053,Thunderstorm,1,11
+586,Improved Healing Wave,1,11
+595,Totemic Focus,1,11
+589,Improved Reincarnation,1,11
+1646,Healing Grace,1,11
+593,Tidal Focus,1,11
+583,Improved Water Shield,1,11
+587,Healing Focus,1,11
+582,Tidal Force,1,11
+581,Ancestral Healing,1,11
+588,Restorative Totems,1,11
+594,Tidal Mastery,1,11
+1648,Healing Way,1,11
+591,Nature's Swiftness,1,11
+1695,Focused Mind,1,11
+592,Purification,1,11
+1699,Nature's Guardian,1,11
+590,Mana Tide Totem,1,11
+2084,Cleanse Spirit,1,11
+2060,Blessing of the Eternals,1,11
+1697,Improved Chain Heal,1,11
+1696,Nature's Blessing,1,11
+2061,Ancestral Awakening,1,11
+1698,Earth Shield,1,11
+2059,Improved Earth Shield,1,11
+2063,Tidal Waves,1,11
+2064,Riptide,1,11
+610,Enhancing Totems,1,11
+2101,Earth's Grasp,1,11
+614,Ancestral Knowledge,1,0
+609,Guardian Totems,1,11
+613,Thundering Strikes,1,0
+605,Improved Ghost Wolf,1,11
+607,Improved Shields,1,11
+611,Elemental Weapons,1,11
+617,Shamanistic Focus,1,11
+601,Anticipation,1,0
+602,Flurry,1,0
+615,Toughness,1,0
+1647,Improved Windfury Totem,1,11
+616,Spirit Weapons,1,0
+2083,Mental Dexterity,1,11
+1689,Unleashed Rage,1,0
+1643,Weapon Mastery,1,0
+2263,Frozen Power,1,11
+1692,Dual Wield Specialization,1,8
+1690,Dual Wield,1,0
+901,Stormstrike,1,11
+2055,Static Shock,1,11
+2249,Lava Lash,1,11
+2054,Improved Stormstrike,1,11
+1691,Mental Quickness,1,11
+1693,Shamanistic Rage,1,11
+2056,Earthen Power,1,11
+2057,Maelstrom Weapon,1,11
+2058,Feral Spirit,1,11
+796,Ferocity,1,7
+795,Feral Aggression,1,7
+799,Feral Instinct,1,7
+805,Savage Fury,1,7
+794,Thick Hide,1,0
+807,Feral Swiftness,1,7
+1162,Survival Instincts,1,7
+798,Sharpened Claws,1,0
+802,Shredding Attacks,1,7
+803,Predatory Strikes,1,7
+801,Primal Fury,1,0
+1914,Primal Precision,1,7
+797,Brutal Impact,1,7
+804,Feral Charge,1,0
+1792,Nurturing Instinct,1,7
+2242,Natural Reaction,1,7
+808,Heart of the Wild,1,0
+1794,Survival of the Fittest,1,7
+809,Leader of the Pack,1,7
+1798,Improved Leader of the Pack,1,7
+1793,Primal Tenacity,1,7
+2241,Protector of the Pack,1,7
+1795,Predatory Instincts,1,7
+1919,Infected Wounds,1,7
+1921,King of the Jungle,1,7
+1796,Mangle,1,0
+1920,Improved Mangle,1,7
+1918,Rend and Tear,1,7
+2266,Primal Gore,1,7
+1927,Berserk,1,7
+821,Improved Mark of the Wild,1,7
+823,Nature's Focus,1,7
+822,Furor,1,7
+824,Naturalist,1,7
+841,Subtlety,1,7
+826,Natural Shapeshifter,1,7
+829,Intensity,1,7
+827,Omen of Clarity,1,7
+1915,Master Shapeshifter,1,0
+843,Tranquil Spirit,1,7
+830,Improved Rejuvenation,1,7
+831,Nature's Swiftness,1,7
+828,Gift of Nature,1,7
+842,Improved Tranquility,1,7
+1788,Empowered Touch,1,7
+825,Nature's Bounty,1,7
+1797,Living Spirit,1,7
+844,Swiftmend,1,7
+1790,Natural Perfection,1,7
+1789,Empowered Rejuvenation,1,7
+1922,Living Seed,1,7
+1929,Revitalize,1,7
+1791,Tree of Life,1,0
+1930,Improved Tree of Life,1,7
+2264,Improved Barkskin,1,7
+1916,Gift of the Earthmother,1,7
+1917,Wild Growth,1,7
+762,Starlight Wrath,1,7
+2238,Genesis,1,7
+783,Moonglow,1,7
+1822,Nature's Majesty,1,7
+763,Improved Moonfire,1,7
+782,Brambles,1,7
+789,Nature's Grace,1,7
+2240,Nature's Splendor,1,7
+764,Nature's Reach,1,7
+792,Vengeance,1,7
+784,Celestial Focus,1,7
+1782,Lunar Guidance,1,7
+788,Insect Swarm,1,7
+2239,Improved Insect Swarm,1,7
+1784,Dreamstate,1,7
+790,Moonfury,1,7
+1783,Balance of Power,1,7
+793,Moonkin Form,1,7
+1912,Improved Moonkin Form,1,7
+1785,Improved Faerie Fire,1,7
+1913,Owlkin Frenzy,1,3
+1786,Wrath of Cenarius,1,7
+1924,Eclipse,1,7
+1923,Typhoon,1,7
+1787,Force of Nature,1,7
+1925,Gale Winds,1,7
+1928,Earth and Moon,1,7
+1926,Starfall,1,7
+944,Improved Shadow Bolt,1,5
+943,Bane,1,5
+982,Aftermath,1,5
+1887,Molten Skin,1,8
+941,Cataclysm,1,5
+983,Demonic Power,1,5
+963,Shadowburn,1,5
+967,Ruin,1,5
+985,Intensity,1,5
+964,Destructive Reach,1,5
+965,Improved Searing Pain,1,5
+1817,Backlash,1,3
+961,Improved Immolate,1,5
+981,Devastation,1,5
+1679,Nether Protection,1,5
+966,Emberstorm,1,5
+968,Conflagrate,1,5
+1678,Soul Leech,1,5
+986,Pyroclasm,1,5
+1677,Shadow and Flame,1,5
+1889,Improved Soul Leech,1,5
+1888,Backdraft,1,5
+1676,Shadowfury,1,5
+2045,Empowered Imp,1,5
+1890,Fire and Brimstone,1,5
+1891,Chaos Bolt,1,5
+1284,Improved Curse of Agony,1,5
+1005,Suppression,1,5
+1003,Improved Corruption,1,5
+1006,Improved Curse of Weakness,1,5
+1101,Improved Drain Soul,1,5
+1007,Improved Life Tap,1,5
+1004,Soul Siphon,1,5
+2205,Improved Fear,1,5
+1001,Fel Concentration,1,5
+1061,Amplify Curse,1,5
+1021,Grim Reach,1,5
+1002,Nightfall,1,5
+1764,Empowered Corruption,1,5
+1763,Shadow Embrace,1,5
+1041,Siphon Life,1,5
+1081,Curse of Exhaustion,1,5
+1873,Improved Felhunter,1,5
+1042,Shadow Mastery,1,5
+1878,Eradication,1,5
+1669,Contagion,1,5
+1022,Dark Pact,1,5
+1668,Improved Howl of Terror,1,5
+1667,Malediction,1,5
+1875,Death's Embrace,1,5
+1670,Unstable Affliction,1,5
+2245,Pandemic,1,5
+1876,Everlasting Affliction,1,5
+2041,Haunt,1,5
+1221,Improved Healthstone,1,5
+1222,Improved Imp,1,5
+1223,Demonic Embrace,1,0
+1883,Fel Synergy,1,5
+1224,Improved Health Funnel,1,5
+1225,Demonic Brutality,1,5
+1242,Fel Vitality,1,5
+1243,Improved Succubus,1,5
+1282,Soul Link,1,5
+1226,Fel Domination,1,5
+1671,Demonic Aegis,1,5
+1262,Unholy Power,1,5
+1227,Master Summoner,1,5
+1281,Mana Feed,1,5
+1261,Master Conjuror,1,5
+1244,Master Demonologist,1,0
+1283,Molten Core,1,5
+1680,Demonic Resilience,1,5
+1880,Demonic Empowerment,1,5
+1263,Demonic Knowledge,1,5
+1673,Demonic Tactics,1,5
+2261,Decimation,1,5
+1882,Improved Demonic Tactics,1,5
+1672,Summon Felguard,1,5
+1884,Nemesis,1,5
+1885,Demonic Pact,1,5
+1886,Metamorphosis,1,5
+1382,Improved Aspect of the Hawk,1,9
+1389,Endurance Training,1,9
+1624,Focused Fire,1,9
+1381,Improved Aspect of the Monkey,1,9
+1395,Thick Hide,1,9
+1625,Improved Revive Pet,1,9
+1384,Pathfinding,1,9
+2138,Aspect Mastery,1,9
+1396,Unleashed Fury,1,9
+1385,Improved Mend Pet,1,9
+1393,Ferocity,1,9
+1388,Spirit Bond,1,0
+1387,Intimidation,1,9
+1390,Bestial Discipline,1,9
+1799,Animal Handler,1,9
+1397,Frenzy,1,9
+1800,Ferocious Inspiration,1,9
+1386,Bestial Wrath,1,9
+1801,Catlike Reflexes,1,9
+2136,Invigoration,1,9
+1802,Serpent's Swiftness,1,9
+2140,Longevity,1,9
+1803,The Beast Within,1,9
+2137,Cobra Strikes,1,9
+2227,Kindred Spirits,1,9
+2139,Beast Mastery,1,9
+1623,Improved Tracking,1,9
+1820,Hawk Eye,1,9
+1621,Savage Strikes,1,9
+1310,Surefooted,1,9
+1304,Entrapment,1,9
+1305,Trap Mastery,1,9
+1810,Survival Instincts,1,9
+1622,Survivalist,1,9
+1814,Scatter Shot,1,9
+1311,Deflection,1,0
+1309,Survival Tactics,1,9
+2229,T.N.T.,1,9
+1306,Lock and Load,1,9
+2228,Hunter vs. Wild,1,9
+1321,Killer Instinct,1,0
+1312,Counterattack,1,9
+1303,Lightning Reflexes,1,0
+1809,Resourcefulness,1,9
+1812,Expose Weakness,1,9
+1325,Wyvern Sting,1,9
+1811,Thrill of the Hunt,1,9
+1813,Master Tactician,1,9
+2141,Noxious Stings,1,9
+2142,Point of No Escape,1,9
+1322,Black Arrow,1,9
+2143,Sniper Training,1,9
+2144,Hunting Party,1,9
+2145,Explosive Shot,1,9
+1341,Improved Concussive Shot,1,9
+2197,Focused Aim,1,9
+1344,Lethal Shots,1,0
+1806,Careful Aim,1,9
+1343,Improved Hunter's Mark,1,9
+1349,Mortal Shots,1,9
+1818,Go for the Throat,1,9
+1346,Improved Arcane Shot,1,9
+1345,Aimed Shot,1,9
+1819,Rapid Killing,1,9
+1348,Improved Stings,1,9
+1342,Efficiency,1,9
+1351,Concussive Barrage,1,9
+1353,Readiness,1,9
+1347,Barrage,1,9
+1804,Combat Experience,1,9
+1362,Ranged Weapon Specialization,1,0
+2130,Piercing Shots,1,9
+1361,Trueshot Aura,1,9
+1821,Improved Barrage,1,9
+1807,Master Marksman,1,9
+2131,Rapid Recuperation,1,9
+2132,Wild Quiver,1,9
+1808,Silencing Shot,1,9
+2133,Improved Steady Shot,1,9
+2134,Marked for Death,1,9
+2135,Chimera Shot,1,9
+1403,Deflection,1,0
+1407,Benediction,1,10
+1631,Improved Judgements,1,10
+1464,Heart of the Crusader,1,10
+1401,Improved Blessing of Might,1,10
+1633,Vindication,1,0
+1411,Conviction,1,0
+1481,Seal of Command,1,10
+1634,Pursuit of Justice,1,0
+1632,Eye for an Eye,1,0
+1761,Sanctity of Battle,1,10
+1755,Crusade,1,0
+1410,Two-Handed Weapon Specialization,1,0
+1756,Sanctified Retribution,1,10
+1402,Vengeance,1,0
+1757,Divine Purpose,1,0
+2176,The Art of War,1,10
+1441,Repentance,1,10
+1758,Judgements of the Wise,1,10
+1759,Fanaticism,1,10
+2147,Sanctified Wrath,1,10
+2148,Swift Retribution,1,10
+1823,Crusader Strike,1,10
+2179,Sheath of Light,1,10
+2149,Righteous Vengeance,1,10
+2150,Divine Storm,1,10
+1432,Spiritual Focus,1,10
+1463,Seals of the Pure,1,10
+1444,Healing Light,1,10
+1449,Divine Intellect,1,0
+1628,Unyielding Faith,1,0
+1435,Aura Mastery,1,10
+1461,Illumination,1,10
+1443,Improved Lay on Hands,1,10
+1450,Improved Concentration Aura,1,10
+1446,Improved Blessing of Wisdom,1,10
+2198,Blessed Hands,1,10
+1742,Pure of Heart,1,10
+1433,Divine Favor,1,10
+1465,Sanctified Light,1,10
+1743,Purifying Power,1,10
+1627,Holy Power,1,0
+1745,Light's Grace,1,10
+1502,Holy Shock,1,10
+1744,Blessed Life,1,10
+2190,Sacred Cleansing,1,10
+1746,Holy Guidance,1,10
+1747,Divine Illumination,1,10
+2199,Judgements of the Pure,1,10
+2193,Infusion of Light,1,10
+2191,Enlightened Judgements,1,10
+2192,Beacon of Light,1,10
+1442,Divinity,1,0
+2185,Divine Strength,1,0
+1748,Stoicism,1,10
+1425,Guardian's Favor,1,10
+1629,Anticipation,1,0
+2280,Divine Sacrifice,1,10
+1501,Improved Righteous Fury,1,10
+1423,Toughness,1,0
+2281,Divine Guardian,1,10
+1521,Improved Hammer of Justice,1,10
+1422,Improved Devotion Aura,1,10
+1431,Blessing of Sanctuary,1,10
+1426,Reckoning,1,0
+1750,Sacred Duty,1,10
+1429,One-Handed Weapon Specialization,1,0
+2282,Spiritual Attunement,1,10
+1430,Holy Shield,1,10
+1751,Ardent Defender,1,10
+1421,Redoubt,1,0
+1753,Combat Expertise,1,10
+2195,Touched by the Light,1,10
+1754,Avenger's Shield,1,10
+2194,Guarded by the Light,1,10
+2204,Shield of the Templar,1,10
+2200,Judgements of the Just,1,10
+2196,Hammer of the Righteous,1,10
+1939,Butchery,1,15
+1945,Subversion,1,15
+2017,Blade Barrier,1,15
+1938,Bladed Armor,1,15
+1948,Scent of Blood,1,0
+2217,Two-Handed Weapon Specialization,1,0
+1941,Rune Tap,1,15
+1943,Dark Conviction,1,0
+2086,Death Rune Mastery,1,15
+1942,Improved Rune Tap,1,15
+2018,Spell Deflection,1,0
+1953,Vendetta,1,15
+2015,Bloody Strikes,1,15
+1950,Veteran of the Third War,1,0
+1949,Mark of Blood,1,15
+1944,Bloody Vengeance,1,0
+2105,Abomination's Might,1,15
+1960,Bloodworms,1,15
+1954,Hysteria,1,15
+1936,Improved Blood Presence,1,15
+2259,Improved Death Strike,1,15
+1955,Sudden Doom,1,15
+2019,Vampiric Blood,1,15
+1959,Will of the Necropolis,1,15
+1957,Heart Strike,1,15
+1958,Might of Mograine,1,15
+2034,Blood Gorged,1,15
+1961,Dancing Rune Weapon,1,15
+2031,Improved Icy Touch,1,15
+2020,Runic Power Mastery,1,15
+1968,Toughness,1,0
+2035,Icy Reach,1,15
+1973,Black Ice,1,15
+2022,Nerves of Cold Steel,1,0
+2042,Icy Talons,1,15
+2215,Lichborne,1,15
+2048,Annihilation,1,15
+2044,Killing Machine,1,15
+1981,Chill of the Grave,1,15
+1971,Endless Winter,1,15
+1990,Frigid Dreadplate,1,15
+2030,Glacier Rot,1,15
+1980,Deathchill,1,15
+2223,Improved Icy Talons,1,15
+1993,Merciless Combat,1,15
+1992,Rime,1,15
+2260,Chilblains,1,15
+1999,Hungering Cold,1,15
+2029,Improved Frost Presence,1,15
+2284,Threat of Thassarian,1,15
+2210,Blood of the North,1,15
+1979,Unbreakable Armor,1,15
+1997,Acclimation,1,15
+1975,Frost Strike,1,15
+2040,Guile of Gorefiend,1,15
+1998,Tundra Stalker,1,15
+1989,Howling Blast,1,15
+2082,Vicious Strikes,1,15
+1932,Virulence,1,15
+2218,Anticipation,1,0
+1963,Epidemic,1,15
+1933,Morbidity,1,15
+2025,Unholy Command,1,15
+1934,Ravenous Dead,1,15
+2008,Outbreak,1,15
+2047,Necrosis,1,15
+1985,Corpse Explosion,1,15
+2039,On a Pale Horse,1,15
+2004,Blood-Caked Blade,1,15
+2225,Night of the Dead,1,15
+1996,Unholy Blight,1,15
+2005,Impurity,1,7
+2011,Dirge,1,15
+2226,Desecration,1,15
+2009,Magic Suppression,1,15
+2001,Reaping,1,15
+1984,Master of Ghouls,1,15
+2285,Desolation,1,15
+2221,Anti-Magic Zone,1,15
+2013,Improved Unholy Presence,1,15
+2085,Ghoul Frenzy,1,15
+1962,Crypt Fever,1,15
+2007,Bone Shield,1,15
+2003,Wandering Plague,1,15
+2043,Ebon Plaguebringer,1,15
+2216,Scourge Strike,1,15
+2036,Rage of Rivendare,1,15
+2000,Summon Gargoyle,1,15
+2114,Cobra Reflexes,1,17
+2237,Charge,1,9
+2116,Great Stamina,1,0
+2117,Natural Armor,1,0
+2126,Spiked Collar,1,17
+2160,Boar's Speed,1,9
+2173,Blood of the Rhino,1,0
+2122,Pet Barding,1,0
+2110,Culling the Herd,1,0
+2123,Guard Dog,1,17
+2162,Lionhearted,1,0
+2277,Thunderstomp,1,9
+2163,Grace of the Mantis,1,0
+2161,Great Resistance,1,17
+2171,Last Stand,1,9
+2170,Taunt,1,9
+2172,Roar of Sacrifice,1,9
+2169,Intervene,1,9
+2258,Silverback,1,17
+2255,Wild Hunt,1,17
+2107,Cobra Reflexes,1,17
+2109,Dash,1,9
+2203,Dive,1,9
+2112,Great Stamina,1,0
+2113,Natural Armor,1,0
+2124,Improved Cower,1,17
+2128,Bloodthirsty,1,17
+2125,Spiked Collar,1,17
+2151,Boar's Speed,1,9
+2106,Culling the Herd,1,0
+2152,Lionhearted,1,0
+2111,Charge,1,9
+2219,Swoop,1,9
+2156,Heart of the Phoenix,1,9
+2129,Spider's Bite,1,17
+2154,Great Resistance,1,17
+2155,Rabid,1,9
+2153,Lick Your Wounds,1,9
+2157,Call of the Wild,1,9
+2254,Shark Attack,1,17
+2253,Wild Hunt,1,17
+2118,Cobra Reflexes,1,17
+2119,Dash,1,9
+2201,Dive,1,9
+2120,Great Stamina,1,0
+2121,Natural Armor,1,0
+2165,Boar's Speed,1,9
+2207,Mobility,1,9
+2208,Mobility,1,9
+2182,Owl's Focus,1,0
+2127,Spiked Collar,1,17
+2166,Culling the Herd,1,0
+2167,Lionhearted,1,0
+2206,Carrion Feeder,1,9
+2168,Great Resistance,1,17
+2177,Cornered,1,9
+2183,Feeding Frenzy,1,9
+2181,Wolverine Bite,1,9
+2184,Roar of Recovery,1,9
+2175,Bullheaded,1,9
+2257,Grace of the Mantis,1,0
+2256,Wild Hunt,1,17
+2278,Roar of Sacrifice,1,9
+long,str,2,class
+27,Improved Fire Blast,2,3
+1141,Incineration,2,3
+26,Improved Fireball,2,3
+34,Ignite,2,3
+2212,Burning Determination,2,3
+31,World in Flames,2,3
+28,Flame Throwing,2,3
+30,Impact,2,3
+23,Burning Soul,2,3
+25,Improved Scorch,2,3
+24,Molten Shields,2,3
+1639,Master of Elements,2,3
+1730,Playing with Fire,2,3
+33,Critical Mass,2,3
+1731,Blazing Speed,2,3
+35,Fire Power,2,3
+1733,Pyromaniac,2,3
+1732,Molten Fury,2,3
+1848,Fiery Payback,2,0
+1734,Empowered Fire,2,3
+1849,Firestarter,2,3
+1850,Hot Streak,2,3
+1851,Burnout,2,3
+38,Frostbite,2,3
+37,Improved Frostbolt,2,3
+62,Ice Floes,2,3
+73,Ice Shards,2,3
+70,Frost Warding,2,3
+1649,Precision,2,3
+65,Permafrost,2,3
+61,Piercing Ice,2,3
+63,Improved Blizzard,2,3
+741,Arctic Reach,2,3
+66,Frost Channeling,2,3
+67,Shatter,2,3
+64,Improved Cone of Cold,2,3
+1736,Frozen Core,2,3
+1737,Cold as Ice,2,3
+68,Winter's Chill,2,3
+2214,Shattered Barrier,2,3
+1738,Arctic Winds,2,3
+1740,Empowered Frostbolt,2,3
+1853,Fingers of Frost,2,3
+1854,Brain Freeze,2,3
+1855,Enduring Winter,2,3
+1856,Chilled to the Bone,2,3
+74,Arcane Subtlety,2,3
+76,Arcane Focus,2,3
+80,Arcane Stability,2,3
+85,Arcane Fortitude,2,0
+1650,Magic Absorption,2,3
+75,Arcane Concentration,2,3
+82,Magic Attunement,2,3
+81,Spell Impact,2,3
+1845,Student of the Mind,2,0
+83,Arcane Shielding,2,3
+88,Improved Counterspell,2,3
+1142,Arcane Meditation,2,0
+2222,Torment the Weak,2,0
+1724,Improved Blink,2,3
+77,Arcane Mind,2,0
+1726,Prismatic Cloak,2,3
+421,Arcane Instability,2,3
+1725,Arcane Potency,2,3
+1727,Arcane Empowerment,2,3
+1844,Incanter's Absorption,2,0
+1843,Arcane Flows,2,3
+1728,Mind Mastery,2,3
+2209,Missile Barrage,2,3
+1846,Netherwind Presence,2,3
+1826,Spell Power,2,3
+124,Improved Heroic Strike,2,4
+130,Deflection,2,0
+127,Improved Rend,2,4
+126,Improved Charge,2,4
+641,Iron Will,2,0
+128,Tactical Mastery,2,4
+131,Improved Overpower,2,4
+662,Impale,2,4
+121,Deep Wounds,2,4
+136,Two-Handed Weapon Specialization,2,0
+2232,Taste for Blood,2,4
+132,Poleaxe Specialization,2,0
+125,Mace Specialization,2,0
+123,Sword Specialization,2,0
+134,Weapon Mastery,2,0
+129,Improved Hamstring,2,4
+1859,Trauma,2,0
+1663,Second Wind,2,4
+1862,Strength of Arms,2,0
+2233,Improved Slam,2,4
+1824,Improved Mortal Strike,2,4
+1860,Unrelenting Assault,2,4
+1662,Sudden Death,2,0
+1664,Blood Frenzy,2,4
+2231,Wrecking Crew,2,0
+142,Improved Bloodrage,2,4
+1601,Shield Specialization,2,4
+141,Improved Thunder Clap,2,4
+144,Incite,2,4
+138,Anticipation,2,0
+147,Improved Revenge,2,4
+1654,Shield Mastery,2,4
+140,Toughness,2,4
+2247,Improved Spell Reflection,2,4
+151,Improved Disarm,2,4
+146,Puncture,2,4
+150,Improved Disciplines,2,4
+149,Gag Order,2,4
+702,One-Handed Weapon Specialization,2,0
+1652,Improved Defensive Stance,2,0
+1660,Focused Rage,2,4
+1653,Vitality,2,0
+1870,Safeguard,2,4
+1893,Critical Block,2,4
+1871,Sword and Board,2,4
+2246,Damage Shield,2,4
+2250,Armored to the Teeth,2,4
+158,Booming Voice,2,4
+157,Cruelty,2,0
+161,Improved Demoralizing Shout,2,4
+159,Unbridled Wrath,2,0
+166,Improved Cleave,2,4
+661,Blood Craze,2,0
+154,Commanding Presence,2,4
+1581,Dual Wield Specialization,2,4
+1542,Improved Execute,2,4
+155,Enrage,2,4
+1657,Precision,2,0
+1543,Improved Intercept,2,4
+1541,Improved Berserker Rage,2,4
+156,Flurry,2,0
+1864,Intensify Rage,2,4
+1655,Improved Whirlwind,2,4
+1865,Furious Attacks,2,0
+1658,Improved Berserker Stance,2,4
+1866,Bloodsurge,2,4
+2234,Unending Fury,2,4
+203,Improved Gouge,2,8
+201,Improved Sinister Strike,2,8
+221,Dual Wield Specialization,2,8
+1827,Improved Slice and Dice,2,8
+187,Deflection,2,0
+181,Precision,2,0
+204,Endurance,2,8
+182,Close Quarters Combat,2,0
+206,Improved Kick,2,8
+222,Improved Sprint,2,8
+186,Lightning Reflexes,2,0
+1122,Aggression,2,8
+184,Mace Specialization,2,0
+242,Hack and Slash,2,0
+1703,Weapon Expertise,2,0
+1706,Blade Twisting,2,8
+1705,Vitality,2,0
+1707,Nerves of Steel,2,0
+2072,Throwing Specialization,2,8
+1825,Combat Potency,2,8
+2073,Unfair Advantage,2,0
+2074,Savage Combat,2,8
+2075,Prey on the Weak,2,0
+276,Improved Eviscerate,2,8
+272,Remorseless Attacks,2,0
+270,Malice,2,0
+273,Ruthlessness,2,8
+2068,Blood Spatter,2,8
+277,Puncturing Wounds,2,8
+278,Improved Expose Armor,2,8
+269,Lethality,2,8
+682,Vile Poisons,2,8
+268,Improved Poisons,2,8
+1721,Fleet Footed,2,0
+279,Improved Kidney Shot,2,8
+1762,Quick Recovery,2,8
+283,Seal Fate,2,8
+274,Murder,2,8
+2065,Deadly Brew,2,8
+1723,Deadened Nerves,2,8
+2069,Focused Attacks,2,0
+1718,Find Weakness,2,8
+1715,Master Poisoner,2,8
+2066,Turn the Tables,2,0
+2070,Cut to the Chase,2,8
+2244,Relentless Strikes,2,8
+241,Master of Deception,2,0
+261,Opportunity,2,8
+1700,Sleight of Hand,2,8
+262,Dirty Tricks,2,8
+244,Camouflage,2,8
+247,Elusiveness,2,8
+1123,Serrated Blades,2,8
+246,Setup,2,0
+245,Initiative,2,8
+263,Improved Ambush,2,8
+1701,Heightened Senses,2,0
+265,Dirty Deeds,2,8
+1713,Master of Subtlety,2,0
+1702,Deadliness,2,0
+1711,Enveloping Shadows,2,0
+1722,Cheat Death,2,8
+1712,Sinister Calling,2,8
+2077,Waylay,2,8
+2078,Honor Among Thieves,2,0
+2079,Filthy Tricks,2,8
+2080,Slaughter from the Shadows,2,8
+342,Unbreakable Will,2,0
+1898,Twin Disciplines,2,6
+352,Silent Resolve,2,6
+346,Improved Inner Fire,2,6
+344,Improved Power Word: Fortitude,2,6
+321,Martyrdom,2,0
+347,Meditation,2,0
+343,Improved Power Word: Shield,2,6
+1769,Absolution,2,6
+341,Mental Agility,2,6
+350,Improved Mana Burn,2,6
+2268,Reflective Shield,2,6
+1201,Mental Strength,2,0
+1771,Focused Power,2,6
+1772,Enlightenment,2,6
+1858,Focused Will,2,0
+1773,Improved Flash Heal,2,6
+2235,Renewed Hope,2,6
+1896,Rapture,2,6
+1894,Aspiration,2,6
+1895,Divine Aegis,2,6
+1901,Grace,2,6
+1202,Borrowed Time,2,6
+410,Healing Focus,2,6
+406,Improved Renew,2,6
+401,Holy Specialization,2,6
+411,Spell Warding,2,6
+1181,Divine Fury,2,6
+1636,Blessed Recovery,2,6
+361,Inspiration,2,6
+1635,Holy Reach,2,6
+408,Improved Healing,2,6
+403,Searing Light,2,6
+413,Healing Prayers,2,6
+402,Spiritual Guidance,2,6
+1766,Surge of Light,2,6
+404,Spiritual Healing,2,6
+1768,Holy Concentration,2,6
+1765,Blessed Resilience,2,6
+2279,Body and Soul,2,6
+1767,Empowered Healing,2,6
+1904,Serendipity,2,6
+1902,Empowered Renew,2,6
+1903,Test of Faith,2,6
+1905,Divine Providence,2,6
+465,Spirit Tap,2,0
+2027,Improved Spirit Tap,2,6
+462,Darkness,2,6
+466,Shadow Affinity,2,6
+482,Improved Shadow Word: Pain,2,6
+463,Shadow Focus,2,6
+542,Improved Psychic Scream,2,6
+481,Improved Mind Blast,2,6
+483,Veiled Shadows,2,6
+881,Shadow Reach,2,6
+461,Shadow Weaving,2,6
+1638,Improved Vampiric Embrace,2,6
+1777,Focused Mind,2,6
+1781,Mind Melt,2,6
+2267,Improved Devouring Plague,2,6
+1778,Shadow Power,2,6
+1906,Improved Shadowform,2,6
+1816,Misery,2,6
+1909,Pain and Suffering,2,6
+1907,Twisted Faith,2,6
+564,Convection,2,11
+563,Concussion,2,11
+561,Call of Flame,2,11
+1640,Elemental Warding,2,11
+1645,Elemental Devastation,2,11
+575,Reverberation,2,11
+565,Elemental Fury,2,11
+567,Improved Fire Nova,2,11
+1642,Eye of the Storm,2,11
+1641,Elemental Reach,2,11
+1682,Unrelenting Storm,2,11
+1685,Elemental Precision,2,11
+721,Lightning Mastery,2,11
+2052,"Storm, Earth and Fire",2,11
+2262,Booming Echoes,2,11
+2049,Elemental Oath,2,11
+1686,Lightning Overload,2,11
+2050,Astral Shift,2,11
+2051,Lava Flows,2,11
+2252,Shamanism,2,11
+586,Improved Healing Wave,2,11
+595,Totemic Focus,2,11
+589,Improved Reincarnation,2,11
+1646,Healing Grace,2,11
+593,Tidal Focus,2,11
+583,Improved Water Shield,2,11
+587,Healing Focus,2,11
+581,Ancestral Healing,2,11
+588,Restorative Totems,2,11
+594,Tidal Mastery,2,11
+1648,Healing Way,2,11
+1695,Focused Mind,2,11
+592,Purification,2,11
+1699,Nature's Guardian,2,11
+2060,Blessing of the Eternals,2,11
+1697,Improved Chain Heal,2,11
+1696,Nature's Blessing,2,11
+2061,Ancestral Awakening,2,11
+2059,Improved Earth Shield,2,11
+2063,Tidal Waves,2,11
+610,Enhancing Totems,2,11
+2101,Earth's Grasp,2,11
+614,Ancestral Knowledge,2,0
+609,Guardian Totems,2,11
+613,Thundering Strikes,2,0
+605,Improved Ghost Wolf,2,11
+607,Improved Shields,2,11
+611,Elemental Weapons,2,11
+601,Anticipation,2,0
+602,Flurry,2,0
+615,Toughness,2,0
+1647,Improved Windfury Totem,2,11
+2083,Mental Dexterity,2,11
+1689,Unleashed Rage,2,0
+1643,Weapon Mastery,2,0
+2263,Frozen Power,2,11
+1692,Dual Wield Specialization,2,8
+2055,Static Shock,2,11
+2054,Improved Stormstrike,2,11
+1691,Mental Quickness,2,11
+2056,Earthen Power,2,11
+2057,Maelstrom Weapon,2,11
+796,Ferocity,2,7
+795,Feral Aggression,2,7
+799,Feral Instinct,2,7
+805,Savage Fury,2,7
+794,Thick Hide,2,0
+807,Feral Swiftness,2,7
+798,Sharpened Claws,2,0
+802,Shredding Attacks,2,7
+803,Predatory Strikes,2,7
+801,Primal Fury,2,0
+1914,Primal Precision,2,7
+797,Brutal Impact,2,7
+1792,Nurturing Instinct,2,7
+2242,Natural Reaction,2,7
+808,Heart of the Wild,2,0
+1794,Survival of the Fittest,2,7
+1798,Improved Leader of the Pack,2,7
+1793,Primal Tenacity,2,7
+2241,Protector of the Pack,2,7
+1795,Predatory Instincts,2,7
+1919,Infected Wounds,2,7
+1921,King of the Jungle,2,7
+1920,Improved Mangle,2,7
+1918,Rend and Tear,2,7
+821,Improved Mark of the Wild,2,7
+823,Nature's Focus,2,7
+822,Furor,2,7
+824,Naturalist,2,7
+841,Subtlety,2,7
+826,Natural Shapeshifter,2,7
+829,Intensity,2,7
+1915,Master Shapeshifter,2,0
+843,Tranquil Spirit,2,7
+830,Improved Rejuvenation,2,7
+828,Gift of Nature,2,7
+842,Improved Tranquility,2,7
+1788,Empowered Touch,2,7
+825,Nature's Bounty,2,7
+1797,Living Spirit,2,7
+1790,Natural Perfection,2,7
+1789,Empowered Rejuvenation,2,7
+1922,Living Seed,2,7
+1929,Revitalize,2,7
+1930,Improved Tree of Life,2,7
+2264,Improved Barkskin,2,7
+1916,Gift of the Earthmother,2,7
+762,Starlight Wrath,2,7
+2238,Genesis,2,7
+783,Moonglow,2,7
+1822,Nature's Majesty,2,7
+763,Improved Moonfire,2,7
+782,Brambles,2,7
+789,Nature's Grace,2,7
+764,Nature's Reach,2,7
+792,Vengeance,2,7
+784,Celestial Focus,2,7
+1782,Lunar Guidance,2,7
+2239,Improved Insect Swarm,2,7
+1784,Dreamstate,2,7
+790,Moonfury,2,7
+1783,Balance of Power,2,7
+1912,Improved Moonkin Form,2,7
+1785,Improved Faerie Fire,2,7
+1913,Owlkin Frenzy,2,3
+1786,Wrath of Cenarius,2,7
+1924,Eclipse,2,7
+1925,Gale Winds,2,7
+1928,Earth and Moon,2,7
+944,Improved Shadow Bolt,2,5
+943,Bane,2,5
+982,Aftermath,2,5
+1887,Molten Skin,2,8
+941,Cataclysm,2,5
+983,Demonic Power,2,5
+967,Ruin,2,5
+985,Intensity,2,5
+964,Destructive Reach,2,5
+965,Improved Searing Pain,2,5
+1817,Backlash,2,3
+961,Improved Immolate,2,5
+1679,Nether Protection,2,5
+966,Emberstorm,2,5
+1678,Soul Leech,2,5
+986,Pyroclasm,2,5
+1677,Shadow and Flame,2,5
+1889,Improved Soul Leech,2,5
+1888,Backdraft,2,5
+2045,Empowered Imp,2,5
+1890,Fire and Brimstone,2,5
+1284,Improved Curse of Agony,2,5
+1005,Suppression,2,5
+1003,Improved Corruption,2,5
+1006,Improved Curse of Weakness,2,5
+1101,Improved Drain Soul,2,5
+1007,Improved Life Tap,2,5
+1004,Soul Siphon,2,5
+2205,Improved Fear,2,5
+1001,Fel Concentration,2,5
+1021,Grim Reach,2,5
+1002,Nightfall,2,5
+1764,Empowered Corruption,2,5
+1763,Shadow Embrace,2,5
+1873,Improved Felhunter,2,5
+1042,Shadow Mastery,2,5
+1878,Eradication,2,5
+1669,Contagion,2,5
+1668,Improved Howl of Terror,2,5
+1667,Malediction,2,5
+1875,Death's Embrace,2,5
+1876,Everlasting Affliction,2,5
+1221,Improved Healthstone,2,5
+1222,Improved Imp,2,5
+1223,Demonic Embrace,2,0
+1883,Fel Synergy,2,5
+1224,Improved Health Funnel,2,5
+1225,Demonic Brutality,2,5
+1242,Fel Vitality,2,5
+1243,Improved Succubus,2,5
+1671,Demonic Aegis,2,5
+1262,Unholy Power,2,5
+1227,Master Summoner,2,5
+1261,Master Conjuror,2,5
+1244,Master Demonologist,2,0
+1283,Molten Core,2,5
+1680,Demonic Resilience,2,5
+1263,Demonic Knowledge,2,5
+1673,Demonic Tactics,2,5
+2261,Decimation,2,5
+1882,Improved Demonic Tactics,2,5
+1884,Nemesis,2,5
+1885,Demonic Pact,2,5
+1382,Improved Aspect of the Hawk,2,9
+1389,Endurance Training,2,9
+1624,Focused Fire,2,9
+1381,Improved Aspect of the Monkey,2,9
+1395,Thick Hide,2,9
+1625,Improved Revive Pet,2,9
+1384,Pathfinding,2,9
+1396,Unleashed Fury,2,9
+1385,Improved Mend Pet,2,9
+1393,Ferocity,2,9
+1388,Spirit Bond,2,0
+1390,Bestial Discipline,2,9
+1799,Animal Handler,2,9
+1397,Frenzy,2,9
+1800,Ferocious Inspiration,2,9
+1801,Catlike Reflexes,2,9
+2136,Invigoration,2,9
+1802,Serpent's Swiftness,2,9
+2140,Longevity,2,9
+2137,Cobra Strikes,2,9
+2227,Kindred Spirits,2,9
+1623,Improved Tracking,2,9
+1820,Hawk Eye,2,9
+1621,Savage Strikes,2,9
+1310,Surefooted,2,9
+1304,Entrapment,2,9
+1305,Trap Mastery,2,9
+1810,Survival Instincts,2,9
+1622,Survivalist,2,9
+1311,Deflection,2,0
+1309,Survival Tactics,2,9
+2229,T.N.T.,2,9
+1306,Lock and Load,2,9
+2228,Hunter vs. Wild,2,9
+1321,Killer Instinct,2,0
+1303,Lightning Reflexes,2,0
+1809,Resourcefulness,2,9
+1812,Expose Weakness,2,9
+1811,Thrill of the Hunt,2,9
+1813,Master Tactician,2,9
+2141,Noxious Stings,2,9
+2142,Point of No Escape,2,9
+2143,Sniper Training,2,9
+2144,Hunting Party,2,9
+1341,Improved Concussive Shot,2,9
+2197,Focused Aim,2,9
+1344,Lethal Shots,2,0
+1806,Careful Aim,2,9
+1343,Improved Hunter's Mark,2,9
+1349,Mortal Shots,2,9
+1818,Go for the Throat,2,9
+1346,Improved Arcane Shot,2,9
+1819,Rapid Killing,2,9
+1348,Improved Stings,2,9
+1342,Efficiency,2,9
+1351,Concussive Barrage,2,9
+1347,Barrage,2,9
+1804,Combat Experience,2,9
+1362,Ranged Weapon Specialization,2,0
+2130,Piercing Shots,2,9
+1821,Improved Barrage,2,9
+1807,Master Marksman,2,9
+2131,Rapid Recuperation,2,9
+2132,Wild Quiver,2,9
+2133,Improved Steady Shot,2,9
+2134,Marked for Death,2,9
+1403,Deflection,2,0
+1407,Benediction,2,10
+1631,Improved Judgements,2,10
+1464,Heart of the Crusader,2,10
+1401,Improved Blessing of Might,2,10
+1633,Vindication,2,0
+1411,Conviction,2,0
+1634,Pursuit of Justice,2,0
+1632,Eye for an Eye,2,0
+1761,Sanctity of Battle,2,10
+1755,Crusade,2,0
+1410,Two-Handed Weapon Specialization,2,0
+1402,Vengeance,2,0
+1757,Divine Purpose,2,0
+2176,The Art of War,2,10
+1758,Judgements of the Wise,2,10
+1759,Fanaticism,2,10
+2147,Sanctified Wrath,2,10
+2148,Swift Retribution,2,10
+2179,Sheath of Light,2,10
+2149,Righteous Vengeance,2,10
+1432,Spiritual Focus,2,10
+1463,Seals of the Pure,2,10
+1444,Healing Light,2,10
+1449,Divine Intellect,2,0
+1628,Unyielding Faith,2,0
+1461,Illumination,2,10
+1443,Improved Lay on Hands,2,10
+1450,Improved Concentration Aura,2,10
+1446,Improved Blessing of Wisdom,2,10
+2198,Blessed Hands,2,10
+1742,Pure of Heart,2,10
+1465,Sanctified Light,2,10
+1743,Purifying Power,2,10
+1627,Holy Power,2,0
+1745,Light's Grace,2,10
+1744,Blessed Life,2,10
+2190,Sacred Cleansing,2,10
+1746,Holy Guidance,2,10
+2199,Judgements of the Pure,2,10
+2193,Infusion of Light,2,10
+2191,Enlightened Judgements,2,10
+1442,Divinity,2,0
+2185,Divine Strength,2,0
+1748,Stoicism,2,10
+1425,Guardian's Favor,2,10
+1629,Anticipation,2,0
+1501,Improved Righteous Fury,2,10
+1423,Toughness,2,0
+2281,Divine Guardian,2,10
+1521,Improved Hammer of Justice,2,10
+1422,Improved Devotion Aura,2,10
+1426,Reckoning,2,0
+1750,Sacred Duty,2,10
+1429,One-Handed Weapon Specialization,2,0
+2282,Spiritual Attunement,2,10
+1751,Ardent Defender,2,10
+1421,Redoubt,2,0
+1753,Combat Expertise,2,10
+2195,Touched by the Light,2,10
+2194,Guarded by the Light,2,10
+2204,Shield of the Templar,2,10
+2200,Judgements of the Just,2,10
+1939,Butchery,2,15
+1945,Subversion,2,15
+2017,Blade Barrier,2,15
+1938,Bladed Armor,2,15
+1948,Scent of Blood,2,0
+2217,Two-Handed Weapon Specialization,2,0
+1943,Dark Conviction,2,0
+2086,Death Rune Mastery,2,15
+1942,Improved Rune Tap,2,15
+2018,Spell Deflection,2,0
+1953,Vendetta,2,15
+2015,Bloody Strikes,2,15
+1950,Veteran of the Third War,2,0
+1944,Bloody Vengeance,2,0
+2105,Abomination's Might,2,15
+1960,Bloodworms,2,15
+1936,Improved Blood Presence,2,15
+2259,Improved Death Strike,2,15
+1955,Sudden Doom,2,15
+1959,Will of the Necropolis,2,15
+1958,Might of Mograine,2,15
+2034,Blood Gorged,2,15
+2031,Improved Icy Touch,2,15
+2020,Runic Power Mastery,2,15
+1968,Toughness,2,0
+2035,Icy Reach,2,15
+1973,Black Ice,2,15
+2022,Nerves of Cold Steel,2,0
+2042,Icy Talons,2,15
+2048,Annihilation,2,15
+2044,Killing Machine,2,15
+1981,Chill of the Grave,2,15
+1971,Endless Winter,2,15
+1990,Frigid Dreadplate,2,15
+2030,Glacier Rot,2,15
+1993,Merciless Combat,2,15
+1992,Rime,2,15
+2260,Chilblains,2,15
+2029,Improved Frost Presence,2,15
+2284,Threat of Thassarian,2,15
+2210,Blood of the North,2,15
+1997,Acclimation,2,15
+2040,Guile of Gorefiend,2,15
+1998,Tundra Stalker,2,15
+2082,Vicious Strikes,2,15
+1932,Virulence,2,15
+2218,Anticipation,2,0
+1963,Epidemic,2,15
+1933,Morbidity,2,15
+2025,Unholy Command,2,15
+1934,Ravenous Dead,2,15
+2008,Outbreak,2,15
+2047,Necrosis,2,15
+2039,On a Pale Horse,2,15
+2004,Blood-Caked Blade,2,15
+2225,Night of the Dead,2,15
+2005,Impurity,2,7
+2011,Dirge,2,15
+2226,Desecration,2,15
+2009,Magic Suppression,2,15
+2001,Reaping,2,15
+2285,Desolation,2,15
+2013,Improved Unholy Presence,2,15
+1962,Crypt Fever,2,15
+2003,Wandering Plague,2,15
+2043,Ebon Plaguebringer,2,15
+2036,Rage of Rivendare,2,15
+2114,Cobra Reflexes,2,11
+2116,Great Stamina,2,0
+2117,Natural Armor,2,0
+2126,Spiked Collar,2,17
+2173,Blood of the Rhino,2,0
+2122,Pet Barding,2,0
+2110,Culling the Herd,2,0
+2123,Guard Dog,2,17
+2162,Lionhearted,2,0
+2163,Grace of the Mantis,2,0
+2161,Great Resistance,2,17
+2258,Silverback,2,17
+2255,Wild Hunt,2,17
+2107,Cobra Reflexes,2,11
+2112,Great Stamina,2,0
+2113,Natural Armor,2,0
+2124,Improved Cower,2,17
+2128,Bloodthirsty,2,17
+2125,Spiked Collar,2,17
+2106,Culling the Herd,2,0
+2152,Lionhearted,2,0
+2129,Spider's Bite,2,17
+2154,Great Resistance,2,17
+2254,Shark Attack,2,17
+2253,Wild Hunt,2,17
+2118,Cobra Reflexes,2,11
+2120,Great Stamina,2,0
+2121,Natural Armor,2,0
+2207,Mobility,2,9
+2208,Mobility,2,9
+2182,Owl's Focus,2,0
+2127,Spiked Collar,2,17
+2166,Culling the Herd,2,0
+2167,Lionhearted,2,0
+2168,Great Resistance,2,17
+2177,Cornered,2,9
+2183,Feeding Frenzy,2,9
+2257,Grace of the Mantis,2,0
+2256,Wild Hunt,2,17
+long,str,3,class
+1141,Incineration,3,3
+26,Improved Fireball,3,3
+34,Ignite,3,3
+31,World in Flames,3,3
+30,Impact,3,3
+25,Improved Scorch,3,3
+1639,Master of Elements,3,3
+1730,Playing with Fire,3,3
+33,Critical Mass,3,3
+35,Fire Power,3,3
+1733,Pyromaniac,3,3
+1734,Empowered Fire,3,3
+1850,Hot Streak,3,3
+1851,Burnout,3,3
+38,Frostbite,3,3
+37,Improved Frostbolt,3,3
+62,Ice Floes,3,3
+73,Ice Shards,3,3
+1649,Precision,3,3
+65,Permafrost,3,3
+61,Piercing Ice,3,3
+63,Improved Blizzard,3,3
+66,Frost Channeling,3,3
+67,Shatter,3,3
+64,Improved Cone of Cold,3,3
+1736,Frozen Core,3,3
+68,Winter's Chill,3,3
+1738,Arctic Winds,3,3
+1854,Brain Freeze,3,3
+1855,Enduring Winter,3,3
+1856,Chilled to the Bone,3,3
+76,Arcane Focus,3,3
+80,Arcane Stability,3,3
+85,Arcane Fortitude,3,0
+75,Arcane Concentration,3,3
+81,Spell Impact,3,3
+1845,Student of the Mind,3,0
+1142,Arcane Meditation,3,0
+2222,Torment the Weak,3,0
+77,Arcane Mind,3,0
+1726,Prismatic Cloak,3,3
+421,Arcane Instability,3,3
+1727,Arcane Empowerment,3,3
+1844,Incanter's Absorption,3,0
+1728,Mind Mastery,3,3
+2209,Missile Barrage,3,3
+1846,Netherwind Presence,3,3
+124,Improved Heroic Strike,3,4
+130,Deflection,3,0
+641,Iron Will,3,0
+128,Tactical Mastery,3,4
+121,Deep Wounds,3,4
+136,Two-Handed Weapon Specialization,3,0
+2232,Taste for Blood,3,4
+132,Poleaxe Specialization,3,0
+125,Mace Specialization,3,0
+123,Sword Specialization,3,0
+129,Improved Hamstring,3,4
+1824,Improved Mortal Strike,3,4
+1662,Sudden Death,3,0
+2231,Wrecking Crew,3,0
+1601,Shield Specialization,3,4
+141,Improved Thunder Clap,3,4
+144,Incite,3,4
+138,Anticipation,3,0
+140,Toughness,3,4
+146,Puncture,3,4
+702,One-Handed Weapon Specialization,3,0
+1660,Focused Rage,3,4
+1653,Vitality,3,0
+1893,Critical Block,3,4
+1871,Sword and Board,3,4
+2250,Armored to the Teeth,3,4
+157,Cruelty,3,0
+161,Improved Demoralizing Shout,3,4
+159,Unbridled Wrath,3,0
+166,Improved Cleave,3,4
+661,Blood Craze,3,0
+154,Commanding Presence,3,4
+1581,Dual Wield Specialization,3,4
+155,Enrage,3,4
+1657,Precision,3,0
+156,Flurry,3,0
+1864,Intensify Rage,3,4
+1658,Improved Berserker Stance,3,4
+1866,Bloodsurge,3,4
+2234,Unending Fury,3,4
+203,Improved Gouge,3,8
+221,Dual Wield Specialization,3,8
+187,Deflection,3,0
+181,Precision,3,0
+182,Close Quarters Combat,3,0
+186,Lightning Reflexes,3,0
+1122,Aggression,3,8
+184,Mace Specialization,3,0
+242,Hack and Slash,3,0
+1705,Vitality,3,0
+1825,Combat Potency,3,8
+2075,Prey on the Weak,3,0
+276,Improved Eviscerate,3,8
+270,Malice,3,0
+273,Ruthlessness,3,8
+277,Puncturing Wounds,3,8
+269,Lethality,3,8
+682,Vile Poisons,3,8
+268,Improved Poisons,3,8
+279,Improved Kidney Shot,3,8
+283,Seal Fate,3,8
+1723,Deadened Nerves,3,8
+2069,Focused Attacks,3,0
+1718,Find Weakness,3,8
+1715,Master Poisoner,3,8
+2066,Turn the Tables,3,0
+2070,Cut to the Chase,3,8
+2244,Relentless Strikes,3,8
+241,Master of Deception,3,0
+244,Camouflage,3,8
+1123,Serrated Blades,3,8
+246,Setup,3,0
+245,Initiative,3,8
+1713,Master of Subtlety,3,8
+1702,Deadliness,3,0
+1711,Enveloping Shadows,3,0
+1722,Cheat Death,3,8
+1712,Sinister Calling,3,8
+2078,Honor Among Thieves,3,0
+2080,Slaughter from the Shadows,3,8
+342,Unbreakable Will,3,0
+1898,Twin Disciplines,3,6
+352,Silent Resolve,3,6
+346,Improved Inner Fire,3,6
+347,Meditation,3,0
+343,Improved Power Word: Shield,3,6
+1769,Absolution,3,6
+341,Mental Agility,3,6
+1201,Mental Strength,3,0
+1772,Enlightenment,3,6
+1858,Focused Will,3,0
+1773,Improved Flash Heal,3,6
+1896,Rapture,3,6
+1895,Divine Aegis,3,6
+1202,Borrowed Time,3,6
+406,Improved Renew,3,6
+401,Holy Specialization,3,6
+411,Spell Warding,3,6
+1181,Divine Fury,3,6
+1636,Blessed Recovery,3,6
+361,Inspiration,3,6
+408,Improved Healing,3,6
+402,Spiritual Guidance,3,6
+404,Spiritual Healing,3,6
+1768,Holy Concentration,3,6
+1765,Blessed Resilience,3,6
+1767,Empowered Healing,3,6
+1904,Serendipity,3,6
+1902,Empowered Renew,3,6
+1903,Test of Faith,3,6
+1905,Divine Providence,3,6
+465,Spirit Tap,3,0
+462,Darkness,3,6
+466,Shadow Affinity,3,6
+463,Shadow Focus,3,6
+481,Improved Mind Blast,3,6
+461,Shadow Weaving,3,6
+1777,Focused Mind,3,6
+2267,Improved Devouring Plague,3,6
+1778,Shadow Power,3,6
+1816,Misery,3,6
+1909,Pain and Suffering,3,6
+1907,Twisted Faith,3,6
+564,Convection,3,11
+563,Concussion,3,11
+561,Call of Flame,3,11
+1640,Elemental Warding,3,11
+1645,Elemental Devastation,3,11
+575,Reverberation,3,11
+565,Elemental Fury,3,11
+1642,Eye of the Storm,3,11
+1682,Unrelenting Storm,3,11
+1685,Elemental Precision,3,11
+721,Lightning Mastery,3,11
+2052,"Storm, Earth and Fire",3,11
+1686,Lightning Overload,3,11
+2050,Astral Shift,3,0
+2051,Lava Flows,3,11
+2252,Shamanism,3,11
+586,Improved Healing Wave,3,11
+595,Totemic Focus,3,11
+1646,Healing Grace,3,11
+593,Tidal Focus,3,11
+583,Improved Water Shield,3,11
+587,Healing Focus,3,11
+581,Ancestral Healing,3,11
+588,Restorative Totems,3,11
+594,Tidal Mastery,3,11
+1648,Healing Way,3,11
+1695,Focused Mind,3,11
+592,Purification,3,11
+1699,Nature's Guardian,3,11
+1696,Nature's Blessing,3,11
+2061,Ancestral Awakening,3,11
+2063,Tidal Waves,3,11
+610,Enhancing Totems,3,11
+614,Ancestral Knowledge,3,0
+613,Thundering Strikes,3,0
+607,Improved Shields,3,11
+611,Elemental Weapons,3,11
+601,Anticipation,3,0
+602,Flurry,3,0
+615,Toughness,3,0
+2083,Mental Dexterity,3,11
+1689,Unleashed Rage,3,0
+1643,Weapon Mastery,3,0
+1692,Dual Wield Specialization,3,8
+2055,Static Shock,3,11
+1691,Mental Quickness,3,11
+2057,Maelstrom Weapon,3,11
+796,Ferocity,3,7
+795,Feral Aggression,3,7
+799,Feral Instinct,3,7
+794,Thick Hide,3,0
+798,Sharpened Claws,3,0
+803,Predatory Strikes,3,7
+2242,Natural Reaction,3,7
+808,Heart of the Wild,3,0
+1794,Survival of the Fittest,3,7
+1793,Primal Tenacity,3,7
+2241,Protector of the Pack,3,7
+1795,Predatory Instincts,3,7
+1919,Infected Wounds,3,7
+1921,King of the Jungle,3,7
+1920,Improved Mangle,3,7
+1918,Rend and Tear,3,7
+823,Nature's Focus,3,7
+822,Furor,3,7
+824,Naturalist,3,7
+841,Subtlety,3,7
+826,Natural Shapeshifter,3,7
+829,Intensity,3,7
+843,Tranquil Spirit,3,7
+830,Improved Rejuvenation,3,7
+828,Gift of Nature,3,7
+825,Nature's Bounty,3,7
+1797,Living Spirit,3,7
+1790,Natural Perfection,3,7
+1789,Empowered Rejuvenation,3,7
+1922,Living Seed,3,7
+1929,Revitalize,3,7
+1930,Improved Tree of Life,3,7
+1916,Gift of the Earthmother,3,7
+762,Starlight Wrath,3,7
+2238,Genesis,3,7
+783,Moonglow,3,7
+782,Brambles,3,7
+789,Nature's Grace,3,7
+792,Vengeance,3,7
+784,Celestial Focus,3,7
+1782,Lunar Guidance,3,7
+2239,Improved Insect Swarm,3,7
+1784,Dreamstate,3,7
+790,Moonfury,3,7
+1912,Improved Moonkin Form,3,7
+1785,Improved Faerie Fire,3,7
+1913,Owlkin Frenzy,3,3
+1786,Wrath of Cenarius,3,7
+1924,Eclipse,3,7
+1928,Earth and Moon,3,7
+944,Improved Shadow Bolt,3,5
+943,Bane,3,5
+1887,Molten Skin,3,8
+941,Cataclysm,3,5
+967,Ruin,3,5
+965,Improved Searing Pain,3,5
+1817,Backlash,3,3
+961,Improved Immolate,3,5
+1679,Nether Protection,3,5
+966,Emberstorm,3,5
+1678,Soul Leech,3,5
+986,Pyroclasm,3,5
+1677,Shadow and Flame,3,5
+1888,Backdraft,3,5
+2045,Empowered Imp,3,5
+1890,Fire and Brimstone,3,5
+1005,Suppression,3,5
+1003,Improved Corruption,3,5
+1001,Fel Concentration,3,5
+1764,Empowered Corruption,3,5
+1763,Shadow Embrace,3,5
+1042,Shadow Mastery,3,5
+1878,Eradication,3,5
+1669,Contagion,3,5
+1667,Malediction,3,5
+1875,Death's Embrace,3,5
+1876,Everlasting Affliction,3,5
+1222,Improved Imp,3,5
+1223,Demonic Embrace,3,0
+1225,Demonic Brutality,3,5
+1242,Fel Vitality,3,5
+1243,Improved Succubus,3,5
+1671,Demonic Aegis,3,5
+1262,Unholy Power,3,5
+1244,Master Demonologist,3,0
+1283,Molten Core,3,5
+1680,Demonic Resilience,3,5
+1263,Demonic Knowledge,3,5
+1673,Demonic Tactics,3,5
+1882,Improved Demonic Tactics,3,5
+1884,Nemesis,3,5
+1885,Demonic Pact,3,5
+1382,Improved Aspect of the Hawk,3,9
+1389,Endurance Training,3,9
+1381,Improved Aspect of the Monkey,3,9
+1395,Thick Hide,3,9
+1396,Unleashed Fury,3,9
+1393,Ferocity,3,9
+1397,Frenzy,3,9
+1800,Ferocious Inspiration,3,9
+1801,Catlike Reflexes,3,9
+1802,Serpent's Swiftness,3,9
+2140,Longevity,3,9
+2137,Cobra Strikes,3,9
+2227,Kindred Spirits,3,9
+1623,Improved Tracking,3,9
+1820,Hawk Eye,3,9
+1310,Surefooted,3,9
+1304,Entrapment,3,9
+1305,Trap Mastery,3,9
+1622,Survivalist,3,9
+1311,Deflection,3,0
+2229,T.N.T.,3,9
+1306,Lock and Load,3,9
+2228,Hunter vs. Wild,3,9
+1321,Killer Instinct,3,0
+1303,Lightning Reflexes,3,0
+1809,Resourcefulness,3,9
+1812,Expose Weakness,3,9
+1811,Thrill of the Hunt,3,9
+1813,Master Tactician,3,9
+2141,Noxious Stings,3,9
+2143,Sniper Training,3,9
+2144,Hunting Party,3,9
+2197,Focused Aim,3,9
+1344,Lethal Shots,3,0
+1806,Careful Aim,3,9
+1343,Improved Hunter's Mark,3,9
+1349,Mortal Shots,3,9
+1346,Improved Arcane Shot,3,9
+1348,Improved Stings,3,9
+1342,Efficiency,3,9
+1347,Barrage,3,9
+1362,Ranged Weapon Specialization,3,0
+2130,Piercing Shots,3,9
+1821,Improved Barrage,3,9
+1807,Master Marksman,3,9
+2132,Wild Quiver,3,9
+2133,Improved Steady Shot,3,9
+2134,Marked for Death,3,9
+1403,Deflection,3,0
+1407,Benediction,3,10
+1464,Heart of the Crusader,3,10
+1411,Conviction,3,0
+1761,Sanctity of Battle,3,10
+1755,Crusade,3,0
+1410,Two-Handed Weapon Specialization,3,0
+1402,Vengeance,3,0
+1758,Judgements of the Wise,3,10
+1759,Fanaticism,3,10
+2148,Swift Retribution,3,10
+2179,Sheath of Light,3,10
+2149,Righteous Vengeance,3,10
+1432,Spiritual Focus,3,10
+1463,Seals of the Pure,3,10
+1444,Healing Light,3,10
+1449,Divine Intellect,3,0
+1461,Illumination,3,10
+1450,Improved Concentration Aura,3,10
+1465,Sanctified Light,3,10
+1627,Holy Power,3,0
+1745,Light's Grace,3,10
+1744,Blessed Life,3,10
+2190,Sacred Cleansing,3,10
+1746,Holy Guidance,3,10
+2199,Judgements of the Pure,3,10
+1442,Divinity,3,0
+2185,Divine Strength,3,0
+1748,Stoicism,3,10
+1629,Anticipation,3,0
+1501,Improved Righteous Fury,3,10
+1423,Toughness,3,0
+1422,Improved Devotion Aura,3,10
+1426,Reckoning,3,0
+1429,One-Handed Weapon Specialization,3,0
+1751,Ardent Defender,3,10
+1421,Redoubt,3,0
+1753,Combat Expertise,3,10
+2195,Touched by the Light,3,10
+2204,Shield of the Templar,3,10
+1945,Subversion,3,15
+2017,Blade Barrier,3,15
+1938,Bladed Armor,3,15
+1948,Scent of Blood,3,0
+1943,Dark Conviction,3,0
+2086,Death Rune Mastery,3,15
+1942,Improved Rune Tap,3,15
+2018,Spell Deflection,3,0
+1953,Vendetta,3,15
+2015,Bloody Strikes,3,15
+1950,Veteran of the Third War,3,0
+1944,Bloody Vengeance,3,0
+1960,Bloodworms,3,15
+1955,Sudden Doom,3,15
+1959,Will of the Necropolis,3,15
+1958,Might of Mograine,3,15
+2034,Blood Gorged,3,15
+2031,Improved Icy Touch,3,15
+1968,Toughness,3,0
+1973,Black Ice,3,15
+2022,Nerves of Cold Steel,3,0
+2042,Icy Talons,3,15
+2048,Annihilation,3,15
+2044,Killing Machine,3,15
+1990,Frigid Dreadplate,3,15
+2030,Glacier Rot,3,15
+1992,Rime,3,15
+2260,Chilblains,3,15
+2284,Threat of Thassarian,3,15
+2210,Blood of the North,3,15
+1997,Acclimation,3,15
+2040,Guile of Gorefiend,3,15
+1998,Tundra Stalker,3,15
+1932,Virulence,3,15
+2218,Anticipation,3,0
+1933,Morbidity,3,15
+1934,Ravenous Dead,3,15
+2008,Outbreak,3,15
+2047,Necrosis,3,15
+2004,Blood-Caked Blade,3,15
+2005,Impurity,3,7
+2009,Magic Suppression,3,15
+2001,Reaping,3,15
+2285,Desolation,3,15
+1962,Crypt Fever,3,15
+2003,Wandering Plague,3,15
+2043,Ebon Plaguebringer,3,15
+2036,Rage of Rivendare,3,15
+2116,Great Stamina,3,0
+2126,Spiked Collar,3,17
+2110,Culling the Herd,3,0
+2161,Great Resistance,3,17
+2112,Great Stamina,3,0
+2125,Spiked Collar,3,17
+2106,Culling the Herd,3,0
+2129,Spider's Bite,3,17
+2154,Great Resistance,3,17
+2120,Great Stamina,3,0
+2127,Spiked Collar,3,17
+2166,Culling the Herd,3,0
+2168,Great Resistance,3,17
+long,str,4,class
+26,Improved Fireball,4,3
+34,Ignite,4,3
+35,Fire Power,4,3
+1851,Burnout,4,3
+37,Improved Frostbolt,4,3
+1738,Arctic Winds,4,3
+1856,Chilled to the Bone,4,3
+80,Arcane Stability,4,3
+75,Arcane Concentration,4,3
+77,Arcane Mind,4,0
+1728,Mind Mastery,4,3
+2209,Missile Barrage,4,3
+130,Deflection,4,0
+132,Poleaxe Specialization,4,0
+125,Mace Specialization,4,0
+123,Sword Specialization,4,0
+2231,Wrecking Crew,4,0
+1601,Shield Specialization,4,4
+138,Anticipation,4,0
+140,Toughness,4,4
+702,One-Handed Weapon Specialization,4,0
+157,Cruelty,4,0
+161,Improved Demoralizing Shout,4,4
+159,Unbridled Wrath,4,0
+154,Commanding Presence,4,4
+1581,Dual Wield Specialization,4,4
+155,Enrage,4,4
+156,Flurry,4,0
+1658,Improved Berserker Stance,4,4
+2234,Unending Fury,4,4
+221,Dual Wield Specialization,4,8
+181,Precision,4,0
+182,Close Quarters Combat,4,0
+1122,Aggression,4,8
+184,Mace Specialization,4,0
+242,Hack and Slash,4,0
+1825,Combat Potency,4,8
+2075,Prey on the Weak,4,0
+270,Malice,4,0
+269,Lethality,4,8
+268,Improved Poisons,4,8
+283,Seal Fate,4,8
+2070,Cut to the Chase,4,8
+2244,Relentless Strikes,4,8
+1702,Deadliness,4,0
+1712,Sinister Calling,4,8
+2080,Slaughter from the Shadows,4,8
+342,Unbreakable Will,4,0
+1898,Twin Disciplines,4,6
+1201,Mental Strength,4,0
+1202,Borrowed Time,4,6
+401,Holy Specialization,4,6
+411,Spell Warding,4,6
+1181,Divine Fury,4,6
+402,Spiritual Guidance,4,6
+404,Spiritual Healing,4,6
+1767,Empowered Healing,4,6
+1905,Divine Providence,4,6
+462,Darkness,4,6
+481,Improved Mind Blast,4,6
+1778,Shadow Power,4,6
+1907,Twisted Faith,4,6
+564,Convection,4,11
+563,Concussion,4,11
+575,Reverberation,4,11
+565,Elemental Fury,4,11
+721,Lightning Mastery,4,11
+2252,Shamanism,4,11
+586,Improved Healing Wave,4,11
+595,Totemic Focus,4,11
+593,Tidal Focus,4,11
+594,Tidal Mastery,4,11
+592,Purification,4,11
+1699,Nature's Guardian,4,11
+2063,Tidal Waves,4,11
+614,Ancestral Knowledge,4,0
+613,Thundering Strikes,4,0
+602,Flurry,4,0
+615,Toughness,4,0
+2057,Maelstrom Weapon,4,11
+796,Ferocity,4,7
+795,Feral Aggression,4,7
+808,Heart of the Wild,4,0
+1918,Rend and Tear,4,7
+822,Furor,4,7
+824,Naturalist,4,7
+843,Tranquil Spirit,4,7
+828,Gift of Nature,4,7
+825,Nature's Bounty,4,7
+1789,Empowered Rejuvenation,4,7
+1916,Gift of the Earthmother,4,7
+762,Starlight Wrath,4,7
+2238,Genesis,4,7
+792,Vengeance,4,7
+1786,Wrath of Cenarius,4,7
+944,Improved Shadow Bolt,4,5
+943,Bane,4,5
+967,Ruin,4,5
+966,Emberstorm,4,5
+1677,Shadow and Flame,4,5
+1890,Fire and Brimstone,4,5
+1003,Improved Corruption,4,5
+1763,Shadow Embrace,4,5
+1042,Shadow Mastery,4,5
+1669,Contagion,4,5
+1876,Everlasting Affliction,4,5
+1262,Unholy Power,4,5
+1244,Master Demonologist,4,0
+1673,Demonic Tactics,4,5
+1885,Demonic Pact,4,5
+1382,Improved Aspect of the Hawk,4,9
+1389,Endurance Training,4,9
+1396,Unleashed Fury,4,9
+1393,Ferocity,4,9
+1397,Frenzy,4,9
+1802,Serpent's Swiftness,4,9
+2227,Kindred Spirits,4,9
+1623,Improved Tracking,4,9
+1622,Survivalist,4,9
+1303,Lightning Reflexes,4,0
+1813,Master Tactician,4,9
+1344,Lethal Shots,4,0
+1349,Mortal Shots,4,9
+1342,Efficiency,4,9
+1807,Master Marksman,4,9
+2134,Marked for Death,4,9
+1403,Deflection,4,0
+1407,Benediction,4,10
+1411,Conviction,4,0
+1432,Spiritual Focus,4,10
+1463,Seals of the Pure,4,10
+1449,Divine Intellect,4,0
+1461,Illumination,4,10
+1627,Holy Power,4,0
+1746,Holy Guidance,4,10
+2199,Judgements of the Pure,4,10
+1442,Divinity,4,0
+2185,Divine Strength,4,0
+1629,Anticipation,4,0
+1423,Toughness,4,0
+1426,Reckoning,4,0
+2017,Blade Barrier,4,15
+1938,Bladed Armor,4,15
+1943,Dark Conviction,4,0
+2034,Blood Gorged,4,15
+1968,Toughness,4,0
+1973,Black Ice,4,15
+2042,Icy Talons,4,15
+2044,Killing Machine,4,15
+1998,Tundra Stalker,4,15
+2218,Anticipation,4,0
+2047,Necrosis,4,15
+2005,Impurity,4,7
+2285,Desolation,4,15
+2036,Rage of Rivendare,4,15
+long,str,5,class
+26,Improved Fireball,5,3
+34,Ignite,5,3
+35,Fire Power,5,3
+1851,Burnout,5,3
+37,Improved Frostbolt,5,3
+1738,Arctic Winds,5,3
+1856,Chilled to the Bone,5,3
+80,Arcane Stability,5,3
+75,Arcane Concentration,5,3
+77,Arcane Mind,5,0
+1728,Mind Mastery,5,3
+2209,Missile Barrage,5,3
+130,Deflection,5,0
+132,Poleaxe Specialization,5,0
+125,Mace Specialization,5,0
+123,Sword Specialization,5,0
+2231,Wrecking Crew,5,0
+1601,Shield Specialization,5,4
+138,Anticipation,5,0
+140,Toughness,5,4
+702,One-Handed Weapon Specialization,5,0
+157,Cruelty,5,0
+161,Improved Demoralizing Shout,5,4
+159,Unbridled Wrath,5,0
+154,Commanding Presence,5,4
+1581,Dual Wield Specialization,5,4
+155,Enrage,5,4
+156,Flurry,5,0
+1658,Improved Berserker Stance,5,4
+2234,Unending Fury,5,4
+221,Dual Wield Specialization,5,8
+181,Precision,5,0
+182,Close Quarters Combat,5,0
+1122,Aggression,5,8
+184,Mace Specialization,5,0
+242,Hack and Slash,5,0
+1825,Combat Potency,5,8
+2075,Prey on the Weak,5,0
+270,Malice,5,0
+269,Lethality,5,8
+268,Improved Poisons,5,8
+283,Seal Fate,5,8
+2070,Cut to the Chase,5,8
+2244,Relentless Strikes,5,8
+1702,Deadliness,5,0
+1712,Sinister Calling,5,8
+2080,Slaughter from the Shadows,5,8
+342,Unbreakable Will,5,0
+1898,Twin Disciplines,5,6
+1201,Mental Strength,5,0
+1202,Borrowed Time,5,6
+401,Holy Specialization,5,6
+411,Spell Warding,5,6
+1181,Divine Fury,5,6
+402,Spiritual Guidance,5,6
+404,Spiritual Healing,5,6
+1767,Empowered Healing,5,6
+1905,Divine Providence,5,6
+462,Darkness,5,6
+481,Improved Mind Blast,5,6
+1778,Shadow Power,5,6
+1907,Twisted Faith,5,6
+564,Convection,5,11
+563,Concussion,5,11
+575,Reverberation,5,11
+565,Elemental Fury,5,11
+721,Lightning Mastery,5,11
+2252,Shamanism,5,11
+586,Improved Healing Wave,5,11
+595,Totemic Focus,5,11
+593,Tidal Focus,5,11
+594,Tidal Mastery,5,11
+592,Purification,5,11
+1699,Nature's Guardian,5,11
+2063,Tidal Waves,5,11
+614,Ancestral Knowledge,5,0
+613,Thundering Strikes,5,0
+602,Flurry,5,0
+615,Toughness,5,0
+2057,Maelstrom Weapon,5,11
+796,Ferocity,5,7
+795,Feral Aggression,5,7
+808,Heart of the Wild,5,0
+1918,Rend and Tear,5,7
+822,Furor,5,7
+824,Naturalist,5,7
+843,Tranquil Spirit,5,7
+828,Gift of Nature,5,7
+825,Nature's Bounty,5,7
+1789,Empowered Rejuvenation,5,7
+1916,Gift of the Earthmother,5,7
+762,Starlight Wrath,5,7
+2238,Genesis,5,7
+792,Vengeance,5,7
+1786,Wrath of Cenarius,5,7
+944,Improved Shadow Bolt,5,5
+943,Bane,5,5
+967,Ruin,5,5
+966,Emberstorm,5,5
+1677,Shadow and Flame,5,5
+1890,Fire and Brimstone,5,5
+1003,Improved Corruption,5,5
+1763,Shadow Embrace,5,5
+1042,Shadow Mastery,5,5
+1669,Contagion,5,5
+1876,Everlasting Affliction,5,5
+1262,Unholy Power,5,5
+1244,Master Demonologist,5,0
+1673,Demonic Tactics,5,5
+1885,Demonic Pact,5,5
+1382,Improved Aspect of the Hawk,5,9
+1389,Endurance Training,5,9
+1396,Unleashed Fury,5,9
+1393,Ferocity,5,9
+1397,Frenzy,5,9
+1802,Serpent's Swiftness,5,9
+2227,Kindred Spirits,5,9
+1623,Improved Tracking,5,9
+1622,Survivalist,5,9
+1303,Lightning Reflexes,5,0
+1813,Master Tactician,5,9
+1344,Lethal Shots,5,0
+1349,Mortal Shots,5,9
+1342,Efficiency,5,9
+1807,Master Marksman,5,9
+2134,Marked for Death,5,9
+1403,Deflection,5,0
+1407,Benediction,5,10
+1411,Conviction,5,0
+1432,Spiritual Focus,5,10
+1463,Seals of the Pure,5,10
+1449,Divine Intellect,5,0
+1461,Illumination,5,10
+1627,Holy Power,5,0
+1746,Holy Guidance,5,10
+2199,Judgements of the Pure,5,10
+1442,Divinity,5,0
+2185,Divine Strength,5,0
+1629,Anticipation,5,0
+1423,Toughness,5,0
+1426,Reckoning,5,0
+2017,Blade Barrier,5,15
+1938,Bladed Armor,5,15
+1943,Dark Conviction,5,0
+2034,Blood Gorged,5,15
+1968,Toughness,5,0
+1973,Black Ice,5,15
+2042,Icy Talons,5,15
+2044,Killing Machine,5,15
+1998,Tundra Stalker,5,15
+2218,Anticipation,5,0
+2047,Necrosis,5,15
+2005,Impurity,5,7
+2285,Desolation,5,15
+2036,Rage of Rivendare,5,15

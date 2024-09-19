@@ -1,0 +1,8 @@
+["ROGUE"] = {
+"General",
+"Rogue",
+"Outlaw",
+"Assassination",
+"Subtlety",
+},
+}

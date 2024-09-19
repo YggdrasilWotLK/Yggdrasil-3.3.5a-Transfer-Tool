@@ -1,0 +1,7 @@
+["WARLOCK"] = {
+"General",
+"Warlock",
+"Destruction",
+"Affliction",
+"Demonology",
+},

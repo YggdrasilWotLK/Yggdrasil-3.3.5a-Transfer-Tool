@@ -1,0 +1,29 @@
+},
+{
+["restXP"] = 10254,
+["playedThisLevel"] = 11060,
+["zone"] = "Elwynn Forest",
+["money"] = 5271025,
+["lastUpdate"] = 1723597914,
+["XP"] = 0,
+["maxXP"] = 39070,
+["bindLocation"] = "Stormwind City",
+["CovenantInfo"] = 1,
+["guildRankIndex"] = 7,
+["name"] = "Clierrich",
+["subZone"] = "",
+["BaseInfo"] = 570792,
+["lastLogoutTimestamp"] = 1723597914,
+["played"] = 128902,
+},
+}
+DataStore_Characters_GuildRanks = {
+{
+[0] = "CDS ",
+[7] = "Sgt",
+},
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

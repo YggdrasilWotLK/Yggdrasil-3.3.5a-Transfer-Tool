@@ -1,0 +1,9 @@
+{
+[0] = "CDS ",
+[7] = "Sgt",
+},
+}
+DataStore_Characters_Options = {
+["RequestPlayTime"] = true,
+["HideRealPlayTime"] = false,
+}

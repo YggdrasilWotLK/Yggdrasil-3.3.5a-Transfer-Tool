@@ -1,0 +1,16 @@
+"Legacy",
+"Battle for Azeroth",
+"Warlords of Draenor",
+"Mists of Pandaria",
+"Wrath of the Lich King",
+"Burning Crusade",
+},
+}
+DataStore_Currencies_Archeology = {
+{
+},
+{
+},
+{
+},
+}

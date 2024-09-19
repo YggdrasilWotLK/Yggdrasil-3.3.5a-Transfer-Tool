@@ -1,0 +1,15 @@
+["Set"] = {
+["GarrMission_MissionIcon-Patrol"] = 2,
+["GarrMission_MissionIcon-Exploration"] = 4,
+["GarrMission_MissionIcon-Training"] = 3,
+["GarrMission_MissionIcon-Combat"] = 1,
+},
+["Count"] = 4,
+["List"] = {
+"GarrMission_MissionIcon-Combat",
+"GarrMission_MissionIcon-Patrol",
+"GarrMission_MissionIcon-Training",
+"GarrMission_MissionIcon-Exploration",
+},
+},
+["Rewards"] = {

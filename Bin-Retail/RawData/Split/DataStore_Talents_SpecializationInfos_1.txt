@@ -1,0 +1,11 @@
+["Set"] = {
+["DAMAGER"] = 2,
+["TANK"] = 1,
+},
+["Count"] = 2,
+["List"] = {
+"TANK",
+"DAMAGER",
+},
+},
+["Names"] = {

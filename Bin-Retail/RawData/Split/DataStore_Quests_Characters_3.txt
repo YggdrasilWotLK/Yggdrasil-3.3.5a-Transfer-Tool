@@ -1,0 +1,28 @@
+},
+{
+["QuestHeaders"] = {
+"Dragonflight",
+"Gnomeregan",
+"Western Plaguelands",
+"Scholomance",
+"The Stockade",
+"Dalaran",
+"Trading Post",
+"Warbands",
+},
+["lastUpdate"] = 1723512212,
+["Rewards"] = {
+},
+["Quests"] = {
+188484,
+673187520134,
+897582794630,
+897582784838,
+2012616,
+897582831178,
+5282508,
+897585334926,
+89763449104,
+},
+["Emissaries"] = {
+},
