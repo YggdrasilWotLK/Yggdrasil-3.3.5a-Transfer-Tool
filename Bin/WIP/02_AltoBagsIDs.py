@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 # Open the file in read mode
 with open('prepped2.txt', 'r') as file:
     # Read the content of the file

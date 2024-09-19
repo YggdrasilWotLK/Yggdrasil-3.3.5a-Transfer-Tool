@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import sys
 
 # Prompt the user for input

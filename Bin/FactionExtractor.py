@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def extract_info(input_file, temp_file):
     """
     Extracts words between first two quotation marks and only digits from the last number per line,

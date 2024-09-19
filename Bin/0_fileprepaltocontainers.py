@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def process_line(line):
     # Check if the line contains the word "Size"
     if "Size" in line:

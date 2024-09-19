@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 # Open the file for reading
 with open('Input/DataStore_Characters.lua', 'r') as file:
     lines = file.readlines()

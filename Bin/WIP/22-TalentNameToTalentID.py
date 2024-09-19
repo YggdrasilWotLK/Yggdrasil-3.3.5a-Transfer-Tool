@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import csv
 
 def read_talent_file(filename):

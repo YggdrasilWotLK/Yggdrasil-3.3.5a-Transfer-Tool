@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 file_input=open("0_Run.bat",'r')
 file_output=open("mega_transfer_retail.py",'w')
 text=file_input.readlines()

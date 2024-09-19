@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import re
 
 def filter_items(input_file, output_file):

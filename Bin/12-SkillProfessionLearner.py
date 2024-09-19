@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def replace_skills(input_file, output_file):
     cooking_mapping = {
         75: "2550",

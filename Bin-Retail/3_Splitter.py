@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 def extract_sections(section_file):

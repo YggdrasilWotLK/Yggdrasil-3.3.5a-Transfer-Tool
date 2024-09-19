@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def process_file(input_file, output_file):
     with open(input_file, 'r') as f:
         lines = f.readlines()

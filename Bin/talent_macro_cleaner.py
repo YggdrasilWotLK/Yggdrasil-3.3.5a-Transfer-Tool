@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 file_path = "../MacroTalentsPrimary.txt"
 string_to_remove = ".cast 63624"
 lines_to_append = [

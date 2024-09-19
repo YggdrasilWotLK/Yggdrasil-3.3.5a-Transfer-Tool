@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 # Open the input file for reading
 with open('Output/X2-SecondarySpec.txt', 'r') as input_file:
     # Open the output files for writing

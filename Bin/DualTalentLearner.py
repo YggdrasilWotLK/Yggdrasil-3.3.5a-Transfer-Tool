@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 with open('Output/AchievementGranter.txt', 'r') as input_file:
     # Read all lines from the file
     lines = input_file.readlines()

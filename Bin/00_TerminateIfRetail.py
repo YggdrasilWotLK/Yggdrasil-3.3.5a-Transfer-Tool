@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 file_path = 'TERMINATERETAIL.txt'

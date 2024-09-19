@@ -1,3 +1,5 @@
+#Originally authored by Lortz
+#Appended by mostly  nick :)
 import sys
 import os
 

@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 def find_lua_file(start_dir):

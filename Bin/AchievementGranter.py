@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import re
 
 def read_lua_file(file_path):

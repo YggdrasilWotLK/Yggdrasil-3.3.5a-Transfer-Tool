@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 def create_and_write_file(file_path, text):

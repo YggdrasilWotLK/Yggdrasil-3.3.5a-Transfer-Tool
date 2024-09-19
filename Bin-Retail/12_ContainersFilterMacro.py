@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 # Open the input file for reading
 with open('Output/10-ContainersSplit.txt', 'r') as file:
     # Read all lines into a list

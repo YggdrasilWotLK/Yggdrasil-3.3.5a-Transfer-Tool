@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import re
 
 def replace_playername(file_path):

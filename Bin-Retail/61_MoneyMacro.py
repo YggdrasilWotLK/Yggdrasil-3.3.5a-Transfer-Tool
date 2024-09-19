@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import glob
 import re
 import os

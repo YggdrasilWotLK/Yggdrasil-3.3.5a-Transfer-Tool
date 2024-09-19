@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 def replace_lines(input_file, output_file):

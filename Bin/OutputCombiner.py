@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 def combine_text_files(folder_path, output_file):

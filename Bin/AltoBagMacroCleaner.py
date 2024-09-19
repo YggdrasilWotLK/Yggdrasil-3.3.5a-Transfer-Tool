@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def read_file(filepath):
     """Read the content of a file and return it as a list of lines."""
     with open(filepath, 'r') as file:

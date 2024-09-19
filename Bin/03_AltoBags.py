@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def compare_files(file1, file2, output_file):
     # Reading the first file into a dictionary
     preppedcount2 = {}

@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def modify_file_in_place(file_path, skip_numbers):
   """Modifies a file in place by removing lines containing specified numbers.
 

@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def process_entries(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()

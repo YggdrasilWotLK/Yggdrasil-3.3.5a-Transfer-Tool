@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 def extract_armor(filename, output_file):
 
   armor_codes = {

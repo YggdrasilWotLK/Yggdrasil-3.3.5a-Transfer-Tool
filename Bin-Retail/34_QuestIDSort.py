@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 # Filename of the file to sort
 filename = '33-QuestIDs.txt'
 

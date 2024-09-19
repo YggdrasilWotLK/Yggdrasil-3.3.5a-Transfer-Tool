@@ -1,3 +1,4 @@
+#Authored by mostly nick :)
 import os
 
 old_name = "Raw/TalentData.lua"  # Assuming Raw/ is part of the new name
