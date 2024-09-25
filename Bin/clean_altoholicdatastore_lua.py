@@ -55,5 +55,3 @@ for input_file, temp_file in zip(input_files, temp_files):
     # Check if the temp file is empty
     if os.stat(temp_file).st_size == 0:
         print(f"ALERT: File {input_file} is empty! Is it supposed to have contents?")
-
-# Display error message if necessary

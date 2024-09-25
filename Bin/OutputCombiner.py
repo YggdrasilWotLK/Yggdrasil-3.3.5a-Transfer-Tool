@@ -54,4 +54,3 @@ os.remove("temp_output.txt")
 os.remove("main_spec.txt")
 os.remove("sec_spec.txt")
 #os.remove("out_macro_file.txt")
-

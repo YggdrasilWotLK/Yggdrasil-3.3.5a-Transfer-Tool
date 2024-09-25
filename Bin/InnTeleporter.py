@@ -14,3 +14,4 @@ if __name__ == "__main__":
   file_path = "Output/Z-Z-InnTeleport.txt"
   text = ".gm visible on\n.tele dalainn\n"
   create_and_write_file(file_path, text)
+

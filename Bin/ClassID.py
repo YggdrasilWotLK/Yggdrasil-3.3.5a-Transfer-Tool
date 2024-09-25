@@ -44,3 +44,5 @@ output_file = "References/Class-ID.txt"
 extract_class_id(input_file, output_file)
 
 #print(f"Output written to: {output_file}")
+
+output_file.close()

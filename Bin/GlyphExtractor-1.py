@@ -23,5 +23,3 @@ with open(input_file_path, 'r') as file:
 with open(output_file_path, 'w') as file:
     for number in five_digit_numbers:
         file.write(number + '\n')
-
-#print(f'Extracted {len(five_digit_numbers)} 5-digit numbers preceded by | and wrote them to {output_file_path}.')

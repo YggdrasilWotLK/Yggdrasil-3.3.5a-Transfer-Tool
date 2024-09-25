@@ -19,5 +19,3 @@ output_file = 'Output/ProfessionSpellIDs.txt'
 
 # Call the function to extract numbers
 extract_numbers(input_file, output_file)
-
-#print("Extraction completed!")

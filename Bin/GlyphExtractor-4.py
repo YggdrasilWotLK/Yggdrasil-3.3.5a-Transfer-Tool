@@ -43,7 +43,7 @@ def compare_and_replace():
 
     with open('GlyphCount.txt', 'w') as glyph_file:
         for line in modified_lines:
-            glyph_file.write(f'.send items {playername} "Gylphs" "Glyphs" {line}')
+            glyph_file.write(f'.send items {playername} "Glyphs" "Glyphs" {line}')
 
     # Copy GlyphCount.txt to the output folder and rename it to GlyphMacro.txt
     shutil.copy('GlyphCount.txt', 'output/GlyphMacro.txt')

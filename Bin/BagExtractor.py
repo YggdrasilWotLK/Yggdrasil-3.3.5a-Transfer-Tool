@@ -40,5 +40,3 @@ def extract_link_numbers(input_filename, output_filename):
 input_filename = 'Input/DataStore_Containers.lua'
 output_filename = 'Output/BagIDs.txt'
 extract_link_numbers(input_filename, output_filename)
-
-#print(f"Extracted numbers have been written to {output_filename}")

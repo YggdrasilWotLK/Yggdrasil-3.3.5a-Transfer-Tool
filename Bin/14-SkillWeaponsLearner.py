@@ -63,5 +63,3 @@ output_file = "SkillSpellIDMacro.txt"
 
 # Call the function to replace lines with specified strings before the colon and delete the "Defense" line
 replace_lines(input_file, output_file)
-
-#print("Skills with no Spell ID cleaned from macro.")

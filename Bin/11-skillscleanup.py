@@ -29,5 +29,3 @@ output_file = "11-skills.txt"
 
 # Call the function to delete lines with specific text
 delete_lines_with_specific_text(input_file, output_file)
-
-#print("Skills cleaned up and prepared for macroing.")

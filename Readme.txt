@@ -1,7 +1,10 @@
 Welcome to Yggdrasil's WotLK 3.3.5a Transfer Tool.
 
-PIP requirements:
-pip install shutil datetime csv os re glob math subprocess sys
+PIP requirements if running python3.11 or higher:
+pip install datetime
+
+(If you're running an older Python version, you may need to manually run some of the below pip commands:
+pip install shutil datetime csv os re glob math subprocess sys)
 
 Instructions:
 0, Prep: Delete contents of RawData folder
