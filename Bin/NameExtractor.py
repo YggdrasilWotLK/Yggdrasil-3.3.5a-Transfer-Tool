@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 import re
 
@@ -77,35 +76,46 @@ def main():
     file_path = os.path.join(raw_data_path, lua_file)
 
     try:
-        characters = get_character_names_and_realms(file_path)
-        if not characters:
-            raise FileNotFoundError
+        # Check for NameOverride.txt
+        name_override_path = "NameOverride.txt"
+        if os.path.exists(name_override_path):
+            selected_name = read_file_safely(name_override_path).strip()
+            print(f"Character identified from NameOverride.txt: {selected_name}")
+            # Print the content of NameOverride.txt
+            print(f"Content of NameOverride.txt: '{selected_name}'")
+            # Write the content of NameOverride.txt directly into Argument.txt
+            write_to_file(selected_name)  # This will write the name to Argument.txt
+            characters = {selected_name: ("Unknown Realm", None)}  # Fake realm since it's overridden
+        else:
+            characters = get_character_names_and_realms(file_path)
+            if not characters:
+                raise FileNotFoundError
 
-        if len(characters) > 1:
-            print("Character names found:")
-            for i, (name, _) in enumerate(characters.items(), 1):
-                print(f"{i}. {name}")
+            if len(characters) > 1:
+                print("Character names found:")
+                for i, (name, _) in enumerate(characters.items(), 1):
+                    print(f"{i}. {name}")
 
-            while True:
-                selection = input("Select character name by number: ")
-                try:
-                    index = int(selection) - 1
-                    if 0 <= index < len(characters):
-                        selected_name = list(characters.keys())[index]
-                        break
-                    else:
-                        print("Invalid selection. Please try again.")
-                except ValueError:
-                    print("Please enter a valid number.")
+                while True:
+                    selection = input("Select character name by number: ")
+                    try:
+                        index = int(selection) - 1
+                        if 0 <= index < len(characters):
+                            selected_name = list(characters.keys())[index]
+                            break
+                        else:
+                            print("Invalid selection. Please try again.")
+                    except ValueError:
+                        print("Please enter a valid number.")
 
-        elif len(characters) == 1:
-            selected_name = list(characters.keys())[0]
+            elif len(characters) == 1:
+                selected_name = list(characters.keys())[0]
 
-        selected_realm = characters[selected_name][0]
+        selected_realm = characters[selected_name][0] if selected_name in characters else "Unknown Realm"
 
-        write_to_file(selected_name)
         print(f"Character identified: {selected_name} - {selected_realm}. Extracting character files...")
 
+        # Update Lua files only after writing the correct character name
         update_lua_files(raw_data_path, selected_name, selected_realm)
 
     except FileNotFoundError:
@@ -121,5 +131,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

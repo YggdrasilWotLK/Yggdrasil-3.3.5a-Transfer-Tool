@@ -177,7 +177,52 @@ def clean_raw_data():
 if __name__ == "__main__":
   clean_raw_data()
 
-#Authored by mostly nick :)
+
+# Define the base directory and the target directories
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../queue'))
+account_override_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '../AccountOverride.txt'))
+name_override_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '../NameOverride.txt'))
+raw_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../RawData'))
+
+# Delete existing files if they exist
+if os.path.exists(account_override_file):
+    os.remove(account_override_file)
+
+if os.path.exists(name_override_file):
+    os.remove(name_override_file)
+
+# Ensure the RawData directory exists
+os.makedirs(raw_data_dir, exist_ok=True)
+
+# Check for directories in the base_dir
+for account_name in os.listdir(base_dir):
+    account_path = os.path.join(base_dir, account_name)
+
+    if os.path.isdir(account_path):  # Ensure it is a directory
+        for character_name in os.listdir(account_path):
+            character_path = os.path.join(account_path, character_name)
+
+            if os.path.isdir(character_path):  # Ensure it is a directory
+                wtf_path = os.path.join(character_path, 'WTF')
+
+                if os.path.isdir(wtf_path):  # Check if WTF folder exists
+                    # Define the destination path for the WTF folder
+                    destination_wtf_path = os.path.join(raw_data_dir, f"WTF")
+
+                    # Delete the existing WTF folder in the destination if it exists
+                    if os.path.exists(destination_wtf_path):
+                        shutil.rmtree(destination_wtf_path)
+
+                    # Save account name and character name to respective files
+                    with open(account_override_file, 'a') as account_file:
+                        account_file.write(f"{account_name}\n")
+
+                    with open(name_override_file, 'a') as name_file:
+                        name_file.write(f"{character_name}\n")
+
+                    # Copy the WTF folder to the RawData directory
+                    shutil.copytree(wtf_path, destination_wtf_path)
+
 
 def move_wtf_contents(base_dir):
     wtf_dir = os.path.join(base_dir, 'WTF')
@@ -189,10 +234,20 @@ def move_wtf_contents(base_dir):
             source_path = os.path.join(wtf_dir, item)
             destination_path = os.path.join(base_dir, item)
             
+            # Check if the destination already exists
+            if os.path.exists(destination_path):
+                # Remove the existing directory or file
+                if os.path.isdir(destination_path):
+                    shutil.rmtree(destination_path)
+                else:
+                    os.remove(destination_path)
+
             shutil.move(source_path, destination_path)
         
-        os.rmdir(wtf_dir)
-
+        # Remove the WTF directory if it is empty after moving
+        if not os.listdir(wtf_dir):
+            os.rmdir(wtf_dir)
+            
 def list_folders_in_account(base_dir):
     account_dir = os.path.join(base_dir, 'account')
     
@@ -221,7 +276,15 @@ def move_contents(selected_folder, base_dir):
             source_path = os.path.join(source_dir, item)
             destination_path = os.path.join(base_dir, item)
             
-            shutil.move(source_path, destination_path)
+            # Avoid moving the account folder itself
+            if os.path.isdir(source_path) and source_path == os.path.join(base_dir, 'account'):
+                print(f"Skipping the account folder: '{source_path}'")
+                continue
+            
+            if os.path.exists(destination_path):
+                print(f"WARNING: Conflict with existing item at {destination_path}. Skipping '{source_path}'.")
+            else:
+                shutil.move(source_path, destination_path)
 
 def check_for_conflict(base_dir):
     for item in os.listdir(base_dir):
@@ -234,8 +297,21 @@ def check_for_conflict(base_dir):
                 return True
     return False
 
+def get_account_override(base_dir):
+    override_file_path = os.path.join(base_dir, '..', 'AccountOverride.txt')
+    if os.path.exists(override_file_path):
+        with open(override_file_path, 'r') as file:
+            return file.readline().strip()  # Read the first line and strip any whitespace
+    return None
+
 def main():
     base_dir = '../RawData'
+
+    # Delete the Account folder at the start of the script
+    account_folder_path = os.path.join(base_dir, 'account')
+    if os.path.exists(account_folder_path):
+        shutil.rmtree(account_folder_path)
+        print(f"Deleted folder: {account_folder_path}")
 
     if check_for_conflict(base_dir):
         print("Operation aborted due to directory conflict.")
@@ -245,20 +321,30 @@ def main():
     folders = list_folders_in_account(base_dir)
     
     if folders:
-        while True:
-            try:
-                selection = int(input("Select an account by number: ")) - 1
-                if 0 <= selection < len(folders):
-                    selected_folder = folders[selection]
-                    move_contents(selected_folder, base_dir)
-                    break
-                else:
-                    print("Invalid selection. Please enter a number from the list.")
-            except ValueError:
-                print("Invalid input. Please enter a number.")
+        account_override = get_account_override(base_dir)
+        
+        if account_override and account_override in folders:
+            selected_folder = account_override
+            print(f"Automatically selected account: {selected_folder}")
+            move_contents(selected_folder, base_dir)
+        else:
+            while True:
+                try:
+                    selection = int(input("Select an account by number: ")) - 1
+                    if 0 <= selection < len(folders):
+                        selected_folder = folders[selection]
+                        move_contents(selected_folder, base_dir)
+                        break
+                    else:
+                        print("Invalid selection. Please enter a number from the list.")
+                except ValueError:
+                    print("Invalid input. Please enter a number.")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"An error occurred in the WTF cleaner: {e}")
 
 #Authored by mostly nick :)
 
@@ -331,7 +417,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-#Authored by mostly nick :)
 
 def read_file_safely(file_path):
     """Reads the file content safely, handling potential decoding errors."""
@@ -408,35 +493,46 @@ def main():
     file_path = os.path.join(raw_data_path, lua_file)
 
     try:
-        characters = get_character_names_and_realms(file_path)
-        if not characters:
-            raise FileNotFoundError
+        # Check for NameOverride.txt
+        name_override_path = "NameOverride.txt"
+        if os.path.exists(name_override_path):
+            selected_name = read_file_safely(name_override_path).strip()
+            print(f"Character identified from NameOverride.txt: {selected_name}")
+            # Print the content of NameOverride.txt
+            print(f"Content of NameOverride.txt: '{selected_name}'")
+            # Write the content of NameOverride.txt directly into Argument.txt
+            write_to_file(selected_name)  # This will write the name to Argument.txt
+            characters = {selected_name: ("Unknown Realm", None)}  # Fake realm since it's overridden
+        else:
+            characters = get_character_names_and_realms(file_path)
+            if not characters:
+                raise FileNotFoundError
 
-        if len(characters) > 1:
-            print("Character names found:")
-            for i, (name, _) in enumerate(characters.items(), 1):
-                print(f"{i}. {name}")
+            if len(characters) > 1:
+                print("Character names found:")
+                for i, (name, _) in enumerate(characters.items(), 1):
+                    print(f"{i}. {name}")
 
-            while True:
-                selection = input("Select character name by number: ")
-                try:
-                    index = int(selection) - 1
-                    if 0 <= index < len(characters):
-                        selected_name = list(characters.keys())[index]
-                        break
-                    else:
-                        print("Invalid selection. Please try again.")
-                except ValueError:
-                    print("Please enter a valid number.")
+                while True:
+                    selection = input("Select character name by number: ")
+                    try:
+                        index = int(selection) - 1
+                        if 0 <= index < len(characters):
+                            selected_name = list(characters.keys())[index]
+                            break
+                        else:
+                            print("Invalid selection. Please try again.")
+                    except ValueError:
+                        print("Please enter a valid number.")
 
-        elif len(characters) == 1:
-            selected_name = list(characters.keys())[0]
+            elif len(characters) == 1:
+                selected_name = list(characters.keys())[0]
 
-        selected_realm = characters[selected_name][0]
+        selected_realm = characters[selected_name][0] if selected_name in characters else "Unknown Realm"
 
-        write_to_file(selected_name)
         print(f"Character identified: {selected_name} - {selected_realm}. Extracting character files...")
 
+        # Update Lua files only after writing the correct character name
         update_lua_files(raw_data_path, selected_name, selected_realm)
 
     except FileNotFoundError:
@@ -454,32 +550,41 @@ if __name__ == "__main__":
     main()
 
 
-
-#Authored by mostly nick :)
-
-# Prompt the user for input
-character_name = input("Enter name of new character on Yggdrasil, if not same as on old server: ")
-
 # Specify the file paths
 argument_file = "References/Argument.txt"
 recipient_file = "References/Recipient.txt"
+name_override_file = "../NameOverride.txt"
 
-if character_name:
-    # User provided input, write it to Recipient.txt
-    with open(recipient_file, 'w') as file:
-        file.write(character_name)
-    print(f"Character name '{character_name}' has been saved as recipient.")
-else:
-    # No input provided, copy contents of Argument.txt to Recipient.txt
+# Check if NameOverride.txt exists
+if os.path.exists(name_override_file):
+    # If it exists, write its contents to Recipient.txt
     try:
-        with open(argument_file, 'r') as src, open(recipient_file, 'w') as dest:
+        with open(name_override_file, 'r') as src, open(recipient_file, 'w') as dest:
             dest.write(src.read())
-        print(f"Continuing with same name as on old server.")
-    except FileNotFoundError:
-        print(f"CRITICAL ERROR: Cached character file(s) not found, terminating!")
-        selection = input("")
-        parent_pid = os.getppid()  # Get the parent process ID
-        os.kill(parent_pid, 9)  # Send SIGKILL signal to the parent
+        print(f"Character name from '{name_override_file}' has been saved as recipient.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+else:
+    # Prompt the user for input
+    character_name = input("Enter name of new character on Yggdrasil, if not same as on old server: ")
+
+    if character_name:
+        # User provided input, write it to Recipient.txt
+        with open(recipient_file, 'w') as file:
+            file.write(character_name)
+        print(f"Character name '{character_name}' has been saved as recipient.")
+    else:
+        # No input provided, copy contents of Argument.txt to Recipient.txt
+        try:
+            with open(argument_file, 'r') as src, open(recipient_file, 'w') as dest:
+                dest.write(src.read())
+            print(f"Continuing with same name as on old server.")
+        except FileNotFoundError:
+            print(f"CRITICAL ERROR: Cached character file(s) not found, terminating!")
+            selection = input("")
+            parent_pid = os.getppid()  # Get the parent process ID
+            os.kill(parent_pid, 9)  # Send SIGKILL signal to the parent
+
 #Authored by mostly nick :)
 
 def read_character_name(file_path):
@@ -957,7 +1062,7 @@ def compare_and_replace():
             glyph_file.write(f'.send items {playername} "Glyphs" "Glyphs" {line}')
 
     # Copy GlyphCount.txt to the output folder and rename it to GlyphMacro.txt
-    shutil.copy('GlyphCount.txt', 'output/GlyphMacro.txt')
+    shutil.copy('GlyphCount.txt', 'Output/GlyphMacro.txt')
 
     # Delete GlyphCount.txt, GlyphSpellID.txt, and GlyphName.txt
     os.remove('GlyphCount.txt')
@@ -2636,7 +2741,6 @@ source_directory = '..'
 
 # Call the function to copy files
 copy_files_to_parent_directories(source_directory)
-#Authored by mostly nick :)
 
 # Get current directory
 current_directory = os.getcwd()
@@ -2647,10 +2751,23 @@ files = os.listdir(current_directory)
 # Filter out only .txt files
 txt_files = [file for file in files if file.endswith('.txt')]
 
-# Delete each .txt file
+# Delete each .txt file in the current directory
 for txt_file in txt_files:
     file_path = os.path.join(current_directory, txt_file)
     os.remove(file_path)
+
+# Define paths for NameOverride.txt and AccountOverride.txt in the parent directory
+name_override_path = os.path.join(current_directory, '..', 'NameOverride.txt')
+account_override_path = os.path.join(current_directory, '..', 'AccountOverride.txt')
+
+# Delete NameOverride.txt if it exists
+if os.path.exists(name_override_path):
+    os.remove(name_override_path)
+
+# Delete AccountOverride.txt if it exists
+if os.path.exists(account_override_path):
+    os.remove(account_override_path)
+
 #Authored by mostly nick :)
 # Open the file for reading
 with open('Input/DataStore_Characters.lua', 'r') as file:
