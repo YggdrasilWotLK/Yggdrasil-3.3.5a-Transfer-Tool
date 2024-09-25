@@ -6,7 +6,7 @@ def delete_files_in_directory(directory):
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         try:
-            if os.path.isfile(file_path) and not filename.endswith(".lua"):
+            if os.path.isfile(file_path) and not filename.endswith(".lua") and filename != ".gitignore":
                 os.unlink(file_path)
         except Exception as e:
             print(f"Failed to delete {file_path}: {e}")
@@ -25,7 +25,7 @@ def main():
     # 1. Go back to the RawData folder
     raw_data_dir = os.path.abspath(os.path.join(os.getcwd(), "..", "RawData"))
 
-    # 2. Delete all files in RawData folder except .lua files
+    # 2. Delete all files in RawData folder except .lua files and .gitignore
     delete_files_in_directory(raw_data_dir)
 
     # 3. Check if SavedVariables folder exists

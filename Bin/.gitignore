@@ -1,0 +1,8 @@
+# Ignore CombinedMacroOutput.txt
+CombinedMacroOutput.txt
+
+# Ignore all .lua files in dir and subdirs
+*.lua
+
+# Ignore Bin/Output directory
+Bin/WIP
