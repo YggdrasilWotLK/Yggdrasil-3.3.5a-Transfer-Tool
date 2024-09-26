@@ -7,6 +7,10 @@ import sys
 
 #Authored by mostly nick :)
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+sys.path.append(script_dir)
+
 file_path_terminate = 'TERMINATERETAIL.txt'
 
 # Check if the file exists and delete it
@@ -146,36 +150,36 @@ def delete_small_folder(folder_path, size_threshold=1024):
 folder_to_check = "../RawData/Account"
 delete_small_folder(folder_to_check)
 
-#Authored by mostly nick :)
+# Authored by mostly Nick :)
 
 def clean_raw_data():
-  """Cleans the ../RawData folder, preserving only the "Account" folder."""
+    """Cleans the ../RawData folder, preserving only the 'Account' folder and '.gitignore' files."""
 
-  raw_data_path = "../RawData"
+    raw_data_path = "../RawData"
 
-  # Check if RawData folder exists
-  if not os.path.exists(raw_data_path):
-    #print(f"Error: RawData folder '{raw_data_path}' does not exist.")
-    return
+    # Check if RawData folder exists
+    if not os.path.exists(raw_data_path):
+        # print(f"Error: RawData folder '{raw_data_path}' does not exist.")
+        return
 
-  # Check if Account folder exists within RawData
-  account_path = os.path.join(raw_data_path, "Account")
-  if not os.path.exists(account_path):
-    return
+    # Check if Account folder exists within RawData
+    account_path = os.path.join(raw_data_path, "Account")
+    if not os.path.exists(account_path):
+        return
 
-  # Get a list of all files and folders in RawData except Account
-  items_to_delete = [item for item in os.listdir(raw_data_path) if item != "Account"]
+    # Get a list of all files and folders in RawData except Account and .gitignore
+    items_to_delete = [item for item in os.listdir(raw_data_path) if item not in ("Account", ".gitignore")]
 
-  # Delete each item in the list
-  for item in items_to_delete:
-    item_path = os.path.join(raw_data_path, item)
-    if os.path.isfile(item_path):
-      os.remove(item_path)
-    elif os.path.isdir(item_path):
-      shutil.rmtree(item_path)
+    # Delete each item in the list
+    for item in items_to_delete:
+        item_path = os.path.join(raw_data_path, item)
+        if os.path.isfile(item_path):
+            os.remove(item_path)
+        elif os.path.isdir(item_path):
+            shutil.rmtree(item_path)
 
 if __name__ == "__main__":
-  clean_raw_data()
+    clean_raw_data()
 
 
 # Define the base directory and the target directories
@@ -224,6 +228,8 @@ for account_name in os.listdir(base_dir):
                     shutil.copytree(wtf_path, destination_wtf_path)
 
 
+print(f"Running WTF-Cleaner.py!")
+
 def move_wtf_contents(base_dir):
     wtf_dir = os.path.join(base_dir, 'WTF')
     
@@ -239,8 +245,10 @@ def move_wtf_contents(base_dir):
                 # Remove the existing directory or file
                 if os.path.isdir(destination_path):
                     shutil.rmtree(destination_path)
+                    print(f"Removed existing directory: {destination_path}")
                 else:
                     os.remove(destination_path)
+                    print(f"Removed existing file: {destination_path}")
 
             shutil.move(source_path, destination_path)
         
@@ -249,10 +257,11 @@ def move_wtf_contents(base_dir):
             os.rmdir(wtf_dir)
             
 def list_folders_in_account(base_dir):
-    account_dir = os.path.join(base_dir, 'account')
+    account_dir = os.path.join(base_dir, 'Account')
     
     if os.path.exists(account_dir) and os.path.isdir(account_dir):
         items = os.listdir(account_dir)
+        # Check for folders with an uppercase "A"
         folders = [item for item in items if os.path.isdir(os.path.join(account_dir, item))]
         
         if folders:
@@ -264,10 +273,11 @@ def list_folders_in_account(base_dir):
             print("ERROR: No accounts found!")
             return []
     else:
+        print(f"ERROR: Account directory does not exist at: {account_dir}")
         return []
 
 def move_contents(selected_folder, base_dir):
-    source_dir = os.path.join(base_dir, 'account', selected_folder)
+    source_dir = os.path.join(base_dir, 'Account', selected_folder)
     
     if os.path.exists(source_dir) and os.path.isdir(source_dir):
         items = os.listdir(source_dir)
@@ -277,12 +287,11 @@ def move_contents(selected_folder, base_dir):
             destination_path = os.path.join(base_dir, item)
             
             # Avoid moving the account folder itself
-            if os.path.isdir(source_path) and source_path == os.path.join(base_dir, 'account'):
-                print(f"Skipping the account folder: '{source_path}'")
+            if os.path.isdir(source_path) and source_path == os.path.join(base_dir, 'Account'):
                 continue
             
             if os.path.exists(destination_path):
-                print(f"WARNING: Conflict with existing item at {destination_path}. Skipping '{source_path}'.")
+                print(f"WARNING: Conflict with existing item at {destination_path}. Skipping '{source_path}'. You may have old files in the transfer Bin/Raw directory you need to delete.")
             else:
                 shutil.move(source_path, destination_path)
 
@@ -290,7 +299,7 @@ def check_for_conflict(base_dir):
     for item in os.listdir(base_dir):
         subdir = os.path.join(base_dir, item)
         if os.path.isdir(subdir):
-            account_dir = os.path.join(subdir, 'account')
+            account_dir = os.path.join(subdir, 'Account')
             saved_vars_dir = os.path.join(subdir, 'SavedVariables')
             if os.path.isdir(account_dir) and os.path.isdir(saved_vars_dir):
                 print(f"Conflict found in directory: {subdir}")
@@ -306,39 +315,52 @@ def get_account_override(base_dir):
 
 def main():
     base_dir = '../RawData'
+    print(f"Base directory set to: {base_dir}")
 
     # Delete the Account folder at the start of the script
-    account_folder_path = os.path.join(base_dir, 'account')
+    account_folder_path = os.path.join(base_dir, 'Account')
     if os.path.exists(account_folder_path):
         shutil.rmtree(account_folder_path)
-        print(f"Deleted folder: {account_folder_path}")
 
+    print("Checking for directory conflicts...")
     if check_for_conflict(base_dir):
         print("Operation aborted due to directory conflict.")
         return
 
     move_wtf_contents(base_dir)
+
     folders = list_folders_in_account(base_dir)
-    
+
     if folders:
         account_override = get_account_override(base_dir)
-        
-        if account_override and account_override in folders:
-            selected_folder = account_override
-            print(f"Automatically selected account: {selected_folder}")
-            move_contents(selected_folder, base_dir)
+        print(f"Available accounts: {folders}")
+
+        if account_override:
+            print(f"Account override found: {account_override}")
+            if account_override in folders:
+                selected_folder = account_override
+                print(f"Automatically selected account: {selected_folder}")
+                move_contents(selected_folder, base_dir)
+            else:
+                selected_folder = None
         else:
+            selected_folder = None
+
+        if not selected_folder:
             while True:
                 try:
                     selection = int(input("Select an account by number: ")) - 1
                     if 0 <= selection < len(folders):
                         selected_folder = folders[selection]
+                        print(f"You selected the account: {selected_folder}")
                         move_contents(selected_folder, base_dir)
                         break
                     else:
                         print("Invalid selection. Please enter a number from the list.")
                 except ValueError:
                     print("Invalid input. Please enter a number.")
+    else:
+        print("ERROR: No folders found in the Account directory.")
 
 if __name__ == "__main__":
     try:
@@ -346,7 +368,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"An error occurred in the WTF cleaner: {e}")
 
-#Authored by mostly nick :)
+# Authored by mostly Nick :)
 
 def clear_folder(folder_path):
     if os.path.exists(folder_path):
@@ -354,6 +376,10 @@ def clear_folder(folder_path):
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
             try:
+                # Skip deletion if the file is .gitignore
+                if filename == '.gitignore':
+                    continue
+                
                 if os.path.isfile(file_path) or os.path.islink(file_path):
                     os.unlink(file_path)  # Remove the file or link
                 elif os.path.isdir(file_path):
@@ -371,14 +397,15 @@ output_folder = 'Output'
 clear_folder(input_folder)
 clear_folder(output_folder)
 
-#print("Input and Output folders have been cleared!")
+# print("Input and Output folders have been cleared!")
+
 #Authored by mostly nick :)
 
 def delete_files_in_directory(directory):
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         try:
-            if os.path.isfile(file_path) and not filename.endswith(".lua"):
+            if os.path.isfile(file_path) and not filename.endswith(".lua") and filename != ".gitignore":
                 os.unlink(file_path)
         except Exception as e:
             print(f"Failed to delete {file_path}: {e}")
@@ -397,7 +424,7 @@ def main():
     # 1. Go back to the RawData folder
     raw_data_dir = os.path.abspath(os.path.join(os.getcwd(), "..", "RawData"))
 
-    # 2. Delete all files in RawData folder except .lua files
+    # 2. Delete all files in RawData folder except .lua files and .gitignore
     delete_files_in_directory(raw_data_dir)
 
     # 3. Check if SavedVariables folder exists
@@ -417,6 +444,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 def read_file_safely(file_path):
     """Reads the file content safely, handling potential decoding errors."""

@@ -3,6 +3,10 @@ import os
 import shutil
 import subprocess
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+sys.path.append(script_dir)
+
 file_path_terminate = 'TERMINATERETAIL.txt'
 
 # Check if the file exists and delete it
