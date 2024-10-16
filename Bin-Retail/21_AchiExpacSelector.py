@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 from datetime import datetime
 
 # Define the time spans for each expansion

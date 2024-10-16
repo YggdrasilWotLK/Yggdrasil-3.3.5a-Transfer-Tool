@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Open the input file
 with open('preppedcount.txt', 'r') as file:
     lines = file.readlines()

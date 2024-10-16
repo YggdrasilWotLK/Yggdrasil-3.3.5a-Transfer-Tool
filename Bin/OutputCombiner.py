@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 def combine_text_files(folder_path, output_file):
@@ -54,3 +53,4 @@ os.remove("temp_output.txt")
 os.remove("main_spec.txt")
 os.remove("sec_spec.txt")
 #os.remove("out_macro_file.txt")
+

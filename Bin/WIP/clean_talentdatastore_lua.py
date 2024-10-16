@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import sys
 import os
 

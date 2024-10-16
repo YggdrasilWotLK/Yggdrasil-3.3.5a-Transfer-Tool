@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 input_file_path = "Output/TalentMacro.txt"

@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import math
 
 # Function to decode quest IDs from a bitfield

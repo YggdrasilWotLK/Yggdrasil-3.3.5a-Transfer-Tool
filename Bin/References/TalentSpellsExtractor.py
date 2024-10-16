@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def load_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()

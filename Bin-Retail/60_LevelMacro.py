@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 import glob
 

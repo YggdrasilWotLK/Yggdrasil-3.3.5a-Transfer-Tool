@@ -1,4 +1,3 @@
-#Authored by Lortz
 import re
 
 f_in=open("CombinedMacroOutput.txt","r")

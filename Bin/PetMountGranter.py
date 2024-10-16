@@ -1,4 +1,3 @@
-#Authored by Zyyn
 def extract_numbers(input_file, output_file):
     seen_numbers = set()  # Set to track seen numbers
     

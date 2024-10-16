@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def replace_skills(input_file, output_file):
     cooking_mapping = {
         75: "2550",
@@ -208,3 +207,5 @@ input_file = "11-skills.txt"
 output_file = "12-skills.txt"
 
 replace_skills(input_file, output_file)
+
+#print("Skill names replaced with corresponding Spell ID based on max skill level possible.")

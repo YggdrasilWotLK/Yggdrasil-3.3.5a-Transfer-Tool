@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import csv
 import os
 import shutil

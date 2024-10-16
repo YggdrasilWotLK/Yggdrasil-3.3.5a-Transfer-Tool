@@ -1,4 +1,3 @@
-#Authored by Lortz
 file_input=open("RunMacroCreator.bat",'r')
 file_output=open("mega_transfer.py",'w')
 text=file_input.readlines()

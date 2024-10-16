@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def extract_info(input_file, temp_file):
     """
     Extracts words between first two quotation marks and only digits from the last number per line,
@@ -13,7 +12,10 @@ def extract_info(input_file, temp_file):
         lines = f_in.readlines()
         
         for line in lines:
-            line = line.decode('utf-8')  # Decode for potential hidden characters
+            try:
+                line = line.decode('utf-8')  # Decode for potential hidden characters
+            except UnicodeDecodeError:
+                line = line.decode('latin-1')  # Fallback to latin-1 if utf-8 fails
             
             # Check if the line contains a number between -43000 and 43000
             if not "lastUpdate" in line:

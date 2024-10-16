@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 from datetime import datetime
 import csv
 import glob

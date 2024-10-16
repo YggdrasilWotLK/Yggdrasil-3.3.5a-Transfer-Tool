@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 def prepend_to_file(file_path, text_to_prepend):

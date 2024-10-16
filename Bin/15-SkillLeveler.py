@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 # Skill mapping dictionary containing profession names as keys and skill IDs as values

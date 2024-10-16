@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 import shutil
 
@@ -47,5 +46,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
-

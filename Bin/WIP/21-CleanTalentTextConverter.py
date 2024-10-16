@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 def extract_info(line):

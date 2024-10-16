@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Define the filename
 filename = '33-QuestIDs.txt'
 

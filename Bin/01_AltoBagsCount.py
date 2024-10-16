@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 # Define the input and output file names

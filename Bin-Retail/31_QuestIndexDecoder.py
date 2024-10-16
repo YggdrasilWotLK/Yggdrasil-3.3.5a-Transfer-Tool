@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 # Helper function to convert bitfield to quest IDs

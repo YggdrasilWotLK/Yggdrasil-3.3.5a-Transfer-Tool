@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Define file paths
 mount_spell_ids_file = '52-MountSpellIDs.txt'
 allowed_mounts_file = 'Resources/AllowedMounts.txt'

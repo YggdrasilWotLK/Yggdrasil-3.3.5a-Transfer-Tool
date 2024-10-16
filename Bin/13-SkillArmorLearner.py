@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def extract_armor(filename, output_file):
 
   armor_codes = {
@@ -21,3 +20,5 @@ input_file = "10-skills.txt"
 output_file = "Output/Armor.txt"
 
 extract_armor(input_file, output_file)
+
+#print(f"Extracted armor codes written to '{output_file}'.")

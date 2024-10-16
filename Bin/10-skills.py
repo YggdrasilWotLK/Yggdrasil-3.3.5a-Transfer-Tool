@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 def extract_data(input_file, output_file):

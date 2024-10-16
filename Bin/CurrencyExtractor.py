@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 def extract_numbers(input_file, output_file):

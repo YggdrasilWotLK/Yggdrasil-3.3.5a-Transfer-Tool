@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Define the filenames
 file1 = '32-QuestNoIndex.txt'
 file2 = '31-QuestIndexID.txt'

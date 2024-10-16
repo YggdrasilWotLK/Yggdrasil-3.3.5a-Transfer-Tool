@@ -6,7 +6,6 @@ PYTHON 00_CheckRetailVersus335a.py
 PYTHON 00_TerminateIfRetail.py
 PYTHON DeleteEmptyAccountFolder.py
 PYTHON ClearOldTransferInfo.py
-PYTHON WebsiteTransfer.py
 PYTHON WTF-Cleaner.py
 echo.
 PYTHON ClearFolders.py

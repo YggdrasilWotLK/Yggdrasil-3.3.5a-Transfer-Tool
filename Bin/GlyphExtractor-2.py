@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import csv
 
 def match_columns(glyph_file, reference_file, output_file):

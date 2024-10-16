@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 def process_input(input_text):

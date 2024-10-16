@@ -1,6 +1,8 @@
-Welcome to Yggdrasil's WotLK 3.3.5a Transfer Tool.
+Welcome to Yggdrasil's legacy WotLK 3.3.5a Transfer Tool.
 
-PIP requirements if running python3.11 or higher:
+This tool is deprecated and will *not* be maintained. It was designed purely as a learning project on how to use existing addons to scrape character information from one server and feed that information into another using GM commands. It has many shortcomings, such as not staging quests that require items to instantiate, etc. Use at your own risk. 
+
+PIP requirements for the Retail transfer tool if running python3.11 or higher:
 pip install datetime
 
 (If you're running an older Python version, you may need to manually run some of the below pip commands:

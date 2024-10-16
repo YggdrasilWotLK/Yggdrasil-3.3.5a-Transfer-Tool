@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Read GlyphName.txt
 with open('GlyphName.txt', 'r', encoding='utf-8') as glyph_file:
     glyph_lines = glyph_file.readlines()

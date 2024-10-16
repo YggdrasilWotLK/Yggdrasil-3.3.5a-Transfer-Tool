@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import re
 
 def process_file(input_file, output_file):

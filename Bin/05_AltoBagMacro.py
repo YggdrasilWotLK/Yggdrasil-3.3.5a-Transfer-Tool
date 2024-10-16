@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 
 # Define the file paths
@@ -50,3 +49,5 @@ for file_name in files_to_delete:
     if os.path.exists(file_name):
         os.remove(file_name)
         #print(f"Deleted {file_name}")
+
+#print("Cleanup complete.")

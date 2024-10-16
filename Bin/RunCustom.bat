@@ -1,3 +1,3 @@
 @echo off
-PYTHON mega_transfer.py
+PYTHON 00_CheckRetailVersus335a.py
 pause

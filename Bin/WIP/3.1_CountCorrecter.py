@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def replace_in_file(filename, old_text, new_text):
   """
   Replaces all occurrences of a string in a file with another string.

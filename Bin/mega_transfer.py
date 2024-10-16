@@ -5,11 +5,6 @@ import shutil
 import subprocess
 import sys
 
-#Authored by mostly nick :)
-
-script_dir = os.path.dirname(os.path.abspath(__file__))
-os.chdir(script_dir)
-sys.path.append(script_dir)
 
 file_path_terminate = 'TERMINATERETAIL.txt'
 
@@ -113,7 +108,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-#Authored by mostly nick :)
+
 
 file_path = 'TERMINATERETAIL.txt'
 
@@ -123,7 +118,6 @@ if os.path.exists(file_path):
     os.kill(parent_pid, 9)  # Send SIGKILL signal to the parent
 else:
     print(f"Welcome to Yggdrasil's WotLK 3.3.5a toon transfer utility!")
-#Authored by mostly nick :)
 
 def delete_small_folder(folder_path, size_threshold=1024):
   """Deletes a folder if its total size is less than the specified threshold.
@@ -150,85 +144,36 @@ def delete_small_folder(folder_path, size_threshold=1024):
 folder_to_check = "../RawData/Account"
 delete_small_folder(folder_to_check)
 
-# Authored by mostly Nick :)
 
 def clean_raw_data():
-    """Cleans the ../RawData folder, preserving only the 'Account' folder and '.gitignore' files."""
+  """Cleans the ../RawData folder, preserving only the "Account" folder."""
 
-    raw_data_path = "../RawData"
+  raw_data_path = "../RawData"
 
-    # Check if RawData folder exists
-    if not os.path.exists(raw_data_path):
-        # print(f"Error: RawData folder '{raw_data_path}' does not exist.")
-        return
+  # Check if RawData folder exists
+  if not os.path.exists(raw_data_path):
+    #print(f"Error: RawData folder '{raw_data_path}' does not exist.")
+    return
 
-    # Check if Account folder exists within RawData
-    account_path = os.path.join(raw_data_path, "Account")
-    if not os.path.exists(account_path):
-        return
+  # Check if Account folder exists within RawData
+  account_path = os.path.join(raw_data_path, "Account")
+  if not os.path.exists(account_path):
+    return
 
-    # Get a list of all files and folders in RawData except Account and .gitignore
-    items_to_delete = [item for item in os.listdir(raw_data_path) if item not in ("Account", ".gitignore")]
+  # Get a list of all files and folders in RawData except Account
+  items_to_delete = [item for item in os.listdir(raw_data_path) if item != "Account"]
 
-    # Delete each item in the list
-    for item in items_to_delete:
-        item_path = os.path.join(raw_data_path, item)
-        if os.path.isfile(item_path):
-            os.remove(item_path)
-        elif os.path.isdir(item_path):
-            shutil.rmtree(item_path)
+  # Delete each item in the list
+  for item in items_to_delete:
+    item_path = os.path.join(raw_data_path, item)
+    if os.path.isfile(item_path):
+      os.remove(item_path)
+    elif os.path.isdir(item_path):
+      shutil.rmtree(item_path)
 
 if __name__ == "__main__":
-    clean_raw_data()
+  clean_raw_data()
 
-
-# Define the base directory and the target directories
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../queue'))
-account_override_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '../AccountOverride.txt'))
-name_override_file = os.path.abspath(os.path.join(os.path.dirname(__file__), '../NameOverride.txt'))
-raw_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../RawData'))
-
-# Delete existing files if they exist
-if os.path.exists(account_override_file):
-    os.remove(account_override_file)
-
-if os.path.exists(name_override_file):
-    os.remove(name_override_file)
-
-# Ensure the RawData directory exists
-os.makedirs(raw_data_dir, exist_ok=True)
-
-# Check for directories in the base_dir
-for account_name in os.listdir(base_dir):
-    account_path = os.path.join(base_dir, account_name)
-
-    if os.path.isdir(account_path):  # Ensure it is a directory
-        for character_name in os.listdir(account_path):
-            character_path = os.path.join(account_path, character_name)
-
-            if os.path.isdir(character_path):  # Ensure it is a directory
-                wtf_path = os.path.join(character_path, 'WTF')
-
-                if os.path.isdir(wtf_path):  # Check if WTF folder exists
-                    # Define the destination path for the WTF folder
-                    destination_wtf_path = os.path.join(raw_data_dir, f"WTF")
-
-                    # Delete the existing WTF folder in the destination if it exists
-                    if os.path.exists(destination_wtf_path):
-                        shutil.rmtree(destination_wtf_path)
-
-                    # Save account name and character name to respective files
-                    with open(account_override_file, 'a') as account_file:
-                        account_file.write(f"{account_name}\n")
-
-                    with open(name_override_file, 'a') as name_file:
-                        name_file.write(f"{character_name}\n")
-
-                    # Copy the WTF folder to the RawData directory
-                    shutil.copytree(wtf_path, destination_wtf_path)
-
-
-print(f"Running WTF-Cleaner.py!")
 
 def move_wtf_contents(base_dir):
     wtf_dir = os.path.join(base_dir, 'WTF')
@@ -240,28 +185,15 @@ def move_wtf_contents(base_dir):
             source_path = os.path.join(wtf_dir, item)
             destination_path = os.path.join(base_dir, item)
             
-            # Check if the destination already exists
-            if os.path.exists(destination_path):
-                # Remove the existing directory or file
-                if os.path.isdir(destination_path):
-                    shutil.rmtree(destination_path)
-                    print(f"Removed existing directory: {destination_path}")
-                else:
-                    os.remove(destination_path)
-                    print(f"Removed existing file: {destination_path}")
-
             shutil.move(source_path, destination_path)
         
-        # Remove the WTF directory if it is empty after moving
-        if not os.listdir(wtf_dir):
-            os.rmdir(wtf_dir)
-            
+        os.rmdir(wtf_dir)
+
 def list_folders_in_account(base_dir):
-    account_dir = os.path.join(base_dir, 'Account')
+    account_dir = os.path.join(base_dir, 'account')
     
     if os.path.exists(account_dir) and os.path.isdir(account_dir):
         items = os.listdir(account_dir)
-        # Check for folders with an uppercase "A"
         folders = [item for item in items if os.path.isdir(os.path.join(account_dir, item))]
         
         if folders:
@@ -273,11 +205,10 @@ def list_folders_in_account(base_dir):
             print("ERROR: No accounts found!")
             return []
     else:
-        print(f"ERROR: Account directory does not exist at: {account_dir}")
         return []
 
 def move_contents(selected_folder, base_dir):
-    source_dir = os.path.join(base_dir, 'Account', selected_folder)
+    source_dir = os.path.join(base_dir, 'account', selected_folder)
     
     if os.path.exists(source_dir) and os.path.isdir(source_dir):
         items = os.listdir(source_dir)
@@ -286,89 +217,45 @@ def move_contents(selected_folder, base_dir):
             source_path = os.path.join(source_dir, item)
             destination_path = os.path.join(base_dir, item)
             
-            # Avoid moving the account folder itself
-            if os.path.isdir(source_path) and source_path == os.path.join(base_dir, 'Account'):
-                continue
-            
-            if os.path.exists(destination_path):
-                print(f"WARNING: Conflict with existing item at {destination_path}. Skipping '{source_path}'. You may have old files in the transfer Bin/Raw directory you need to delete.")
-            else:
-                shutil.move(source_path, destination_path)
+            shutil.move(source_path, destination_path)
 
 def check_for_conflict(base_dir):
     for item in os.listdir(base_dir):
         subdir = os.path.join(base_dir, item)
         if os.path.isdir(subdir):
-            account_dir = os.path.join(subdir, 'Account')
+            account_dir = os.path.join(subdir, 'account')
             saved_vars_dir = os.path.join(subdir, 'SavedVariables')
             if os.path.isdir(account_dir) and os.path.isdir(saved_vars_dir):
                 print(f"Conflict found in directory: {subdir}")
                 return True
     return False
 
-def get_account_override(base_dir):
-    override_file_path = os.path.join(base_dir, '..', 'AccountOverride.txt')
-    if os.path.exists(override_file_path):
-        with open(override_file_path, 'r') as file:
-            return file.readline().strip()  # Read the first line and strip any whitespace
-    return None
-
 def main():
     base_dir = '../RawData'
-    print(f"Base directory set to: {base_dir}")
 
-    # Delete the Account folder at the start of the script
-    account_folder_path = os.path.join(base_dir, 'Account')
-    if os.path.exists(account_folder_path):
-        shutil.rmtree(account_folder_path)
-
-    print("Checking for directory conflicts...")
     if check_for_conflict(base_dir):
         print("Operation aborted due to directory conflict.")
         return
 
     move_wtf_contents(base_dir)
-
     folders = list_folders_in_account(base_dir)
-
+    
     if folders:
-        account_override = get_account_override(base_dir)
-        print(f"Available accounts: {folders}")
-
-        if account_override:
-            print(f"Account override found: {account_override}")
-            if account_override in folders:
-                selected_folder = account_override
-                print(f"Automatically selected account: {selected_folder}")
-                move_contents(selected_folder, base_dir)
-            else:
-                selected_folder = None
-        else:
-            selected_folder = None
-
-        if not selected_folder:
-            while True:
-                try:
-                    selection = int(input("Select an account by number: ")) - 1
-                    if 0 <= selection < len(folders):
-                        selected_folder = folders[selection]
-                        print(f"You selected the account: {selected_folder}")
-                        move_contents(selected_folder, base_dir)
-                        break
-                    else:
-                        print("Invalid selection. Please enter a number from the list.")
-                except ValueError:
-                    print("Invalid input. Please enter a number.")
-    else:
-        print("ERROR: No folders found in the Account directory.")
+        while True:
+            try:
+                selection = int(input("Select an account by number: ")) - 1
+                if 0 <= selection < len(folders):
+                    selected_folder = folders[selection]
+                    move_contents(selected_folder, base_dir)
+                    break
+                else:
+                    print("Invalid selection. Please enter a number from the list.")
+            except ValueError:
+                print("Invalid input. Please enter a number.")
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        print(f"An error occurred in the WTF cleaner: {e}")
+    main()
 
-# Authored by mostly Nick :)
 
 def clear_folder(folder_path):
     if os.path.exists(folder_path):
@@ -376,10 +263,6 @@ def clear_folder(folder_path):
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
             try:
-                # Skip deletion if the file is .gitignore
-                if filename == '.gitignore':
-                    continue
-                
                 if os.path.isfile(file_path) or os.path.islink(file_path):
                     os.unlink(file_path)  # Remove the file or link
                 elif os.path.isdir(file_path):
@@ -397,15 +280,13 @@ output_folder = 'Output'
 clear_folder(input_folder)
 clear_folder(output_folder)
 
-# print("Input and Output folders have been cleared!")
-
-#Authored by mostly nick :)
+#print("Input and Output folders have been cleared!")
 
 def delete_files_in_directory(directory):
     for filename in os.listdir(directory):
         file_path = os.path.join(directory, filename)
         try:
-            if os.path.isfile(file_path) and not filename.endswith(".lua") and filename != ".gitignore":
+            if os.path.isfile(file_path) and not filename.endswith(".lua"):
                 os.unlink(file_path)
         except Exception as e:
             print(f"Failed to delete {file_path}: {e}")
@@ -424,7 +305,7 @@ def main():
     # 1. Go back to the RawData folder
     raw_data_dir = os.path.abspath(os.path.join(os.getcwd(), "..", "RawData"))
 
-    # 2. Delete all files in RawData folder except .lua files and .gitignore
+    # 2. Delete all files in RawData folder except .lua files
     delete_files_in_directory(raw_data_dir)
 
     # 3. Check if SavedVariables folder exists
@@ -444,7 +325,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 def read_file_safely(file_path):
     """Reads the file content safely, handling potential decoding errors."""
@@ -521,46 +401,35 @@ def main():
     file_path = os.path.join(raw_data_path, lua_file)
 
     try:
-        # Check for NameOverride.txt
-        name_override_path = "NameOverride.txt"
-        if os.path.exists(name_override_path):
-            selected_name = read_file_safely(name_override_path).strip()
-            print(f"Character identified from NameOverride.txt: {selected_name}")
-            # Print the content of NameOverride.txt
-            print(f"Content of NameOverride.txt: '{selected_name}'")
-            # Write the content of NameOverride.txt directly into Argument.txt
-            write_to_file(selected_name)  # This will write the name to Argument.txt
-            characters = {selected_name: ("Unknown Realm", None)}  # Fake realm since it's overridden
-        else:
-            characters = get_character_names_and_realms(file_path)
-            if not characters:
-                raise FileNotFoundError
+        characters = get_character_names_and_realms(file_path)
+        if not characters:
+            raise FileNotFoundError
 
-            if len(characters) > 1:
-                print("Character names found:")
-                for i, (name, _) in enumerate(characters.items(), 1):
-                    print(f"{i}. {name}")
+        if len(characters) > 1:
+            print("Character names found:")
+            for i, (name, _) in enumerate(characters.items(), 1):
+                print(f"{i}. {name}")
 
-                while True:
-                    selection = input("Select character name by number: ")
-                    try:
-                        index = int(selection) - 1
-                        if 0 <= index < len(characters):
-                            selected_name = list(characters.keys())[index]
-                            break
-                        else:
-                            print("Invalid selection. Please try again.")
-                    except ValueError:
-                        print("Please enter a valid number.")
+            while True:
+                selection = input("Select character name by number: ")
+                try:
+                    index = int(selection) - 1
+                    if 0 <= index < len(characters):
+                        selected_name = list(characters.keys())[index]
+                        break
+                    else:
+                        print("Invalid selection. Please try again.")
+                except ValueError:
+                    print("Please enter a valid number.")
 
-            elif len(characters) == 1:
-                selected_name = list(characters.keys())[0]
+        elif len(characters) == 1:
+            selected_name = list(characters.keys())[0]
 
-        selected_realm = characters[selected_name][0] if selected_name in characters else "Unknown Realm"
+        selected_realm = characters[selected_name][0]
 
+        write_to_file(selected_name)
         print(f"Character identified: {selected_name} - {selected_realm}. Extracting character files...")
 
-        # Update Lua files only after writing the correct character name
         update_lua_files(raw_data_path, selected_name, selected_realm)
 
     except FileNotFoundError:
@@ -578,42 +447,30 @@ if __name__ == "__main__":
     main()
 
 
+# Prompt the user for input
+character_name = input("Enter name of new character on Yggdrasil, if not same as on old server: ")
+
 # Specify the file paths
 argument_file = "References/Argument.txt"
 recipient_file = "References/Recipient.txt"
-name_override_file = "../NameOverride.txt"
 
-# Check if NameOverride.txt exists
-if os.path.exists(name_override_file):
-    # If it exists, write its contents to Recipient.txt
-    try:
-        with open(name_override_file, 'r') as src, open(recipient_file, 'w') as dest:
-            dest.write(src.read())
-        print(f"Character name from '{name_override_file}' has been saved as recipient.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+if character_name:
+    # User provided input, write it to Recipient.txt
+    with open(recipient_file, 'w') as file:
+        file.write(character_name)
+    print(f"Character name '{character_name}' has been saved as recipient.")
 else:
-    # Prompt the user for input
-    character_name = input("Enter name of new character on Yggdrasil, if not same as on old server: ")
+    # No input provided, copy contents of Argument.txt to Recipient.txt
+    try:
+        with open(argument_file, 'r') as src, open(recipient_file, 'w') as dest:
+            dest.write(src.read())
+        print(f"Continuing with same name as on old server.")
+    except FileNotFoundError:
+        print(f"CRITICAL ERROR: Cached character file(s) not found, terminating!")
+        selection = input("")
+        parent_pid = os.getppid()  # Get the parent process ID
+        os.kill(parent_pid, 9)  # Send SIGKILL signal to the parent
 
-    if character_name:
-        # User provided input, write it to Recipient.txt
-        with open(recipient_file, 'w') as file:
-            file.write(character_name)
-        print(f"Character name '{character_name}' has been saved as recipient.")
-    else:
-        # No input provided, copy contents of Argument.txt to Recipient.txt
-        try:
-            with open(argument_file, 'r') as src, open(recipient_file, 'w') as dest:
-                dest.write(src.read())
-            print(f"Continuing with same name as on old server.")
-        except FileNotFoundError:
-            print(f"CRITICAL ERROR: Cached character file(s) not found, terminating!")
-            selection = input("")
-            parent_pid = os.getppid()  # Get the parent process ID
-            os.kill(parent_pid, 9)  # Send SIGKILL signal to the parent
-
-#Authored by mostly nick :)
 
 def read_character_name(file_path):
   """Reads the character name from the specified file."""
@@ -662,9 +519,6 @@ if __name__ == "__main__":
   main()
 
 
-
-#Authored by mostly nick :)
-
 def clear_and_copy(source_folder, destination_folder):
     # Clear the contents of the destination folder
     for filename in os.listdir(destination_folder):
@@ -691,8 +545,6 @@ if __name__ == "__main__":
     source_folder = "../RawData"
     destination_folder = "Raw"
     clear_and_copy(source_folder, destination_folder)
-#Originally authored by Lortz
-#Appended by mostly  nick :)
 
 # List of input files
 input_files = [
@@ -747,138 +599,147 @@ for input_file, temp_file in zip(input_files, temp_files):
     if os.stat(temp_file).st_size == 0:
         print(f"ALERT: File {input_file} is empty! Is it supposed to have contents?")
 
-with open("Input/DataStore_Talents.lua", 'r') as f:
-    lines = f.readlines()
+# Display error message if necessary
 
-with open("temp_output.txt", 'w') as out:
-    flag = None
-    p = False
-    for line in lines:
-        if "Class" in line:
-            var_class = line.strip().split('"')[3].strip()
-        if "DataStore_TalentsRefDB" in line:
-            break
-        elif "TalentTrees" in line:
-            p = True
-        if p:
-            out.write(line)
 
-with open("temp_output.txt", 'r') as f2:
-    lines = f2.readlines()
+f=open("Input/DataStore_Talents.lua",'r')
+lines=f.readlines()
 
-with open("main_spec.txt", 'w') as pri, open("sec_spec.txt", 'w') as sec:
-    for line in lines:
-        if "|" in line.strip():
-            flag = line.split('|')[1].split('"')[0]
-        if "nil".casefold() in line:
-            continue
-        if "}," in line:
-            continue
-        if "TalentTrees" in line:
-            continue
-        if "PointsSpent" in line:
-            break
-        if flag == "1":
-            pri.write(line.strip() + "\n")
-        if flag == "2":
-            sec.write(line.strip() + "\n")
+with open("temp_output.txt",'w') as out:
+	flag = None
+	p=False
+	for line in lines:
+		if "Class" in line:
+			var_class=line.strip().split('"')[3].strip()
+		if "DataStore_TalentsRefDB" in line:
+			break
+		elif "TalentTrees" in line:
+			p=True
+		if p:
+			out.write(line)
 
-out_macro_file = open("out_macro_talent.txt", 'w')
+f2=open("temp_output.txt",'r')
+lines=f2.readlines()
 
-with open("main_spec.txt", 'r') as f3:
-    lines = f3.readlines()
+with open("main_spec.txt",'w') as pri, open("sec_spec.txt",'w') as sec:
+	for line in lines:
+		if "|" in line.strip():
+			#spec=line.split('|')[0].split('"')[1]
+			flag=line.split('|')[1].split('"')[0]
+		if "nil".casefold() in line:
+			continue
+		if "}," in line:
+			continue
+		if "TalentTrees" in line:
+			continue
+		if "PointsSpent" in line:
+			break
+		if flag == "1":
+			pri.write(line.strip()+"\n")
+		if flag == "2":
+			sec.write(line.strip()+"\n")
 
-out_macro_file.write("/click TalentMicroButton" + "\n")
-out_macro_file.write("/click GameMenuButtonUIOptions" + "\n")
-out_macro_file.write("/click InterfaceOptionsFeaturesPanelPreviewTalentChanges" + "\n")
+out_macro_file=open("out_macro_talent.txt",'w')
+
+f3=open("main_spec.txt",'r')
+lines=f3.readlines()
+
+out_macro_file.write("/click TalentMicroButton"+"\n")
+out_macro_file.write("/click GameMenuButtonUIOptions"+"\n")
+out_macro_file.write("/click InterfaceOptionsFeaturesPanelPreviewTalentChanges"+"\n")
 out_macro_file.write("/click InterfaceOptionsFrameOkay\n")
 out_macro_file.write("/click GameMenuButtonContinue\n")
-out_macro_file.write("/click PlayerSpecTab1" + "\n")
+out_macro_file.write("/click PlayerSpecTab1"+"\n")
 
-dict_class = {
-    'Blood': 1, 'Frost': 2, 'Unholy': 3, 'Balance': 1, 'Feral': 2, 'Restoration': 3,
-    'Beast Mastery': 1, 'Marksmanship': 2, 'Survival': 3, 'Arcane': 1, 'Fire': 2,
-    'Frost_m': 3, 'Holy_p': 1, 'Protection_p': 2, 'Retribution': 3, 'Discipline': 1,
-    'Holy': 2, 'Shadow': 3, 'Assassination': 1, 'Combat': 2, 'Subtlety': 3,
-    'Elemental': 1, 'Enhancement': 2, 'Restoration_s': 3, 'Affliction': 1,
-    'Demonology': 2, 'Destruction': 3, 'Arms': 1, 'Fury': 2, 'Protection': 3
-}
+dict_class={'Blood':1,'Frost':2 ,'Unholy':3,'Balance':1,'Feral':2,'Restoration':3,'Beast Mastery':1,'Marksmanship':2,'Survival':3,'Arcane':1,'Fire':2,'Frost_m':3,'Holy_p':1,'Protection_p':2,'Retribution':3,'Discipline':1,'Holy':2,'Shadow':3,'Assassination':1,'Combat':2,'Subtlety':3,'Elemental':1,'Enhancement':2,'Restoration_s':3,'Affliction':1,'Demonology':2,'Destruction':3,'Arms':1,'Fury':2,'Protection':3}
 
 for line in lines:
-    if "|" in line:
-        spec = (line.split('|')[0].split('"')[1])
-        if spec == "Frost" and var_class == "MAGE":
-            spec = "Frost_m"
-        if spec == "Holy" and var_class == "PALADIN":
-            spec = "Holy_p"
-        if spec == "Protection" and var_class == "PALADIN":
-            spec = "Protection_p"
-        if spec == "Restoration" and var_class == "SHAMAN":
-            spec = "Restoration_s"
-        val = dict_class.get(spec)
-        out_macro_file.write("/click PlayerTalentFrameTab" + str(val) + "\n")
-    if "--" in line.strip():
-        value = int(line.split(",")[0])
-        ind = line.split('[')[1].split(']')[0]
-        for i in range(value):
-            out_macro_file.write("/click PlayerTalentFrameTalent" + ind + "\n")
-    if "=" in line.strip() and "," in line.strip():
-        value = int(line.split("=")[1].split(",")[0])
-        ind = line.split('[')[1].split(']')[0]
-        for i in range(value):
-            out_macro_file.write("/click PlayerTalentFrameTalent" + ind + "\n")
+	if "|" in line:
+		spec=(line.split('|')[0].split('"')[1])
+		if spec == "Frost":
+			if var_class == "MAGE":
+				spec="Frost_m"
+		if spec == "Holy":
+			if var_class == "PALADIN":
+				spec="Holy_p"
+		if spec == "Protection":
+			if var_class == "PALADIN":
+				spec="Protection_p"
+		if spec == "Restoration":
+			if var_class == "SHAMAN":
+				spec="Restoration_s"
+		val=dict_class.get(spec)
+		out_macro_file.write("/click PlayerTalentFrameTab"+str(val)+"\n")
+	if "--" in line.strip():
+		value=int(line.split(",")[0])
+		ind=line.split('[')[1].split(']')[0]
+		for i in range(value):
+			out_macro_file.write("/click PlayerTalentFrameTalent"+ind+"\n") 
+	if "=" in line.strip() and "," in line.strip():
+		value=int(line.split("=")[1].split(",")[0])
+		ind=line.split('[')[1].split(']')[0]
+		for i in range(value):
+			out_macro_file.write("/click PlayerTalentFrameTalent"+ind+"\n")
 
 if os.stat("sec_spec.txt").st_size == 0:
-    out_macro_file.write("/click PlayerTalentFrameLearnButton" + "\n")
-    out_macro_file.write("/click StaticPopup1Button1\n")
-    out_macro_file.write("/click TalentMicroButton\n")
+	out_macro_file.write("/click PlayerTalentFrameLearnButton"+"\n")
+	out_macro_file.write("/click StaticPopup1Button1\n")
+	out_macro_file.write("/click TalentMicroButton\n")
 
 if os.stat("sec_spec.txt").st_size > 0:
-    out_macro_file.write("/click TalentMicroButton\n")
-    out_macro_file.write("/click PlayerTalentFrameLearnButton" + "\n")
-    out_macro_file.write("/click StaticPopup1Button1" + "\n")
-    out_macro_file.write(".learn 63644" + "\n")
-    out_macro_file.write(".cast 63624" + "\n")
-    out_macro_file.write(".cast 63644" + "\n")
-    out_macro_file.write("/click TalentMicroButton\n")
-    out_macro_file.write("/click PlayerSpecTab2" + "\n")
-    with open("sec_spec.txt", 'r') as f4:
-        lines = f4.readlines()
-        for line in lines:
-            if "|" in line:
-                spec = (line.split('|')[0].split('"')[1])
-                if spec == "Frost" and var_class == "MAGE":
-                    spec = "Frost_m"
-                if spec == "Holy" and var_class == "PALADIN":
-                    spec = "Holy_p"
-                if spec == "Protection" and var_class == "PALADIN":
-                    spec = "Protection_p"
-                if spec == "Restoration" and var_class == "SHAMAN":
-                    spec = "Restoration_s"
-                val = dict_class.get(spec)
-                out_macro_file.write("/click PlayerTalentFrameTab" + str(val) + "\n")
-            if "--" in line.strip():
-                value = int(line.split(",")[0])
-                ind = line.split('[')[1].split(']')[0]
-                for i in range(value):
-                    out_macro_file.write("/click PlayerTalentFrameTalent" + ind + "\n")
-            if "=" in line.strip() and "," in line.strip():
-                value = int(line.split("=")[1].split(",")[0])
-                ind = line.split('[')[1].split(']')[0]
-                for i in range(value):
-                    out_macro_file.write("/click PlayerTalentFrameTalent" + ind + "\n")
-    out_macro_file.write("/click PlayerTalentFrameLearnButton" + "\n")
-    out_macro_file.write("/click StaticPopup1Button1\n")
-    out_macro_file.write(".cheat casttime off" + "\n")
+	out_macro_file.write("/click TalentMicroButton\n")
+	out_macro_file.write("/click PlayerTalentFrameLearnButton"+"\n")
+	out_macro_file.write("/click StaticPopup1Button1"+"\n")
+	out_macro_file.write(".learn 63644"+"\n")
+	#out_macro_file.write(".cheat casttime on"+"\n") #Commented out as it somehow prepends this in the wrong order
+	#out_macro_file.write(".cast 63680"+"\n") #This somehow breaks the macro
+	out_macro_file.write(".cast 63624"+"\n")
+	out_macro_file.write(".cast 63644"+"\n")
+	out_macro_file.write("/click TalentMicroButton\n")
+	out_macro_file.write("/click PlayerSpecTab2"+"\n")
+	f4=open("sec_spec.txt",'r')
+	lines=f4.readlines()
+	for line in lines:
+		if "|" in line:
+			spec=(line.split('|')[0].split('"')[1])
+			if spec == "Frost":
+				if var_class == "MAGE":
+					spec="Frost_m"
+			if spec == "Holy":
+				if var_class == "PALADIN":
+					spec="Holy_p"
+			if spec == "Protection":
+				if var_class == "PALADIN":
+					spec="Protection_p"
+			if spec == "Restoration":
+				if var_class == "SHAMAN":
+					spec="Restoration_s"
+			val=dict_class.get(spec)
+			out_macro_file.write("/click PlayerTalentFrameTab"+str(val)+"\n")
+		if "--" in line.strip():
+			value=int(line.split(",")[0])
+			ind=line.split('[')[1].split(']')[0]
+			for i in range(value):
+				out_macro_file.write("/click PlayerTalentFrameTalent"+ind+"\n") 
+		if "=" in line.strip() and "," in line.strip():
+			value=int(line.split("=")[1].split(",")[0])
+			ind=line.split('[')[1].split(']')[0]
+			for i in range(value):
+				out_macro_file.write("/click PlayerTalentFrameTalent"+ind+"\n")
+	out_macro_file.write("/click PlayerTalentFrameLearnButton"+"\n")
+	out_macro_file.write("/click StaticPopup1Button1\n")
+	out_macro_file.write(".cheat casttime off"+"\n")
 
 out_macro_file.close()
 
+
 def extract_number(line):
+    # Use regular expression to find numbers in the line
     numbers = re.findall(r'\d+', line)
     if numbers:
-        return int(numbers[-1])
+        return int(numbers[-1])  # Return the last number found
     else:
-        return float('inf')
+        return float('inf')  # Return a large number if no numbers found
 
 def sort_lines_between_targets(filename):
     target1 = "/click PlayerTalentFrameTab"
@@ -893,9 +754,10 @@ def sort_lines_between_targets(filename):
     for i in range(len(lines)):
         if target1 in lines[i] or target2 in lines[i] or i == len(lines) - 1:
             if i != start_index:
+                # Sort the lines between start_index and i-1 numerically
                 sorted_section = sorted(lines[start_index:i], key=extract_number)
                 sorted_sections.extend(sorted_section)
-            sorted_sections.append(lines[i])
+            sorted_sections.append(lines[i])  # Append the target line itself
             start_index = i + 1
 
     return sorted_sections
@@ -915,19 +777,28 @@ def split_file(sorted_content):
             break
 
     if split_index == -1:
+        # Delete files ../MacroTalentsPrimary.txt and ../MacroTalentsSecondary.txt
         if os.path.exists("../MacroTalentsPrimary.txt"):
             os.remove("../MacroTalentsPrimary.txt")
         if os.path.exists("../MacroTalentsSecondary.txt"):
             os.remove("../MacroTalentsSecondary.txt")
 
+        # Copy file outmacrotalent.txt to ../ and rename to MacroTalentsPrimary.txt
         shutil.copyfile("out_macro_talent.txt", "../MacroTalentsPrimary.txt")
 
+# Main script execution
 if __name__ == "__main__":
     filename = "out_macro_talent.txt"
+
+    # Step 1: Sort lines between /click PlayerTalentFrameTab or /click PlayerTalentFrameLearnButton
     sorted_content = sort_lines_between_targets(filename)
+
+    # Step 2: Split sorted content based on ".learn 63644" and write to separate files
     split_file(sorted_content)
 
-#Authored by mostly nick :)
+
+#os.remove("temp_output.txt") -- Removed as I'm getting processing delays holding up deletion. Deleting in OutputCombiner instead.
+
 file_path = "../MacroTalentsPrimary.txt"
 string_to_remove = ".cast 63624"
 lines_to_append = [
@@ -951,9 +822,6 @@ else:
 
 
 
-
-#Authored by mostly nick :)
-
 def prepend_to_file(file_path, text_to_prepend):
   """Prepends text to a file if it exists."""
   if os.path.exists(file_path):
@@ -967,7 +835,6 @@ file_path = "../MacroTalentsSecondary.txt"
 text_to_prepend = ".cheat casttime on\n"
 
 prepend_to_file(file_path, text_to_prepend)
-#Authored by mostly nick :)
 
 # Define the input and output file paths
 input_file_path = 'Input/DataStore_Talents.lua'
@@ -991,7 +858,9 @@ with open(input_file_path, 'r') as file:
 with open(output_file_path, 'w') as file:
     for number in five_digit_numbers:
         file.write(number + '\n')
-#Authored by mostly nick :)
+
+#print(f'Extracted {len(five_digit_numbers)} 5-digit numbers preceded by | and wrote them to {output_file_path}.')
+
 
 def match_columns(glyph_file, reference_file, output_file):
     # Read the reference file into a dictionary with column 1 as key and column 137 as value
@@ -1018,7 +887,6 @@ def match_columns(glyph_file, reference_file, output_file):
 # Example usage:
 match_columns('GlyphSpellID.txt', 'References/Spell.txt', 'GlyphName.txt')
 
-#Authored by mostly nick :)
 # Read GlyphName.txt
 with open('GlyphName.txt', 'r', encoding='utf-8') as glyph_file:
     glyph_lines = glyph_file.readlines()
@@ -1045,7 +913,6 @@ with open('GlyphCount.txt', 'w', encoding='utf-8') as count_file:
 for glyph_name, occurrences in glyph_occurrences.items():
     print(f"Occurrences of '{glyph_name}': {occurrences}")
 
-#Authored by mostly nick :)
 
 def compare_and_replace():
     # Read GlyphCount.txt
@@ -1087,10 +954,10 @@ def compare_and_replace():
 
     with open('GlyphCount.txt', 'w') as glyph_file:
         for line in modified_lines:
-            glyph_file.write(f'.send items {playername} "Glyphs" "Glyphs" {line}')
+            glyph_file.write(f'.send items {playername} "Gylphs" "Glyphs" {line}')
 
     # Copy GlyphCount.txt to the output folder and rename it to GlyphMacro.txt
-    shutil.copy('GlyphCount.txt', 'Output/GlyphMacro.txt')
+    shutil.copy('GlyphCount.txt', 'output/GlyphMacro.txt')
 
     # Delete GlyphCount.txt, GlyphSpellID.txt, and GlyphName.txt
     os.remove('GlyphCount.txt')
@@ -1100,7 +967,6 @@ def compare_and_replace():
 if __name__ == "__main__":
     compare_and_replace()
 
-#Authored by mostly nick :)
 
 # Define the input and output file paths
 input_file_path = "Input/DataStore_Characters.lua"
@@ -1143,7 +1009,6 @@ if os.path.exists(input_file_path):
     print("Character level set to:", levels[-1] + 1)
 else:
     print("ERROR: Level not found! Does DataStore_Characters.lua not exist?", input_file_path)
-#Authored by mostly nick :)
 
 def extract_numbers_from_lua(file_path):
     numbers = []
@@ -1286,7 +1151,6 @@ destination_path = os.path.join(ench_output_folder, os.path.basename(file_path))
 
 # Copy file_path to the Output folder
 shutil.copyfile(file_path, destination_path)
-#Authored by mostly nick :)
 def process_line(line):
     # Check if the line contains the word "Size"
     if "Size" in line:
@@ -1336,8 +1200,6 @@ output_file = 'prepped.txt'
 
 # Process the file
 process_file(input_file, output_file)
-
-#Authored by mostly nick :)
 def process_entries(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
@@ -1381,7 +1243,7 @@ def process_entries(filename):
 # Usage example:
 filename = "prepped.txt"
 process_entries(filename)
-#Authored by mostly nick :)
+
 
 # Define the input and output file names
 input_file = 'prepped.txt'
@@ -1410,7 +1272,7 @@ with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
                     counts_id = counts_id_match.group(1)
                     bag_id = counts_id_match.group(2)
                     f_out.write(f"{counts_id},{bag_id},{bag_count * 7}\n")  # Multiply bag_count by 7
-#Authored by mostly nick :)
+
 # Open the input file
 with open('preppedcount.txt', 'r') as file:
     lines = file.readlines()
@@ -1432,7 +1294,6 @@ for line in lines:
 with open('preppedcount2.txt', 'w') as output_file:
     for output_line in output_lines:
         output_file.write(output_line + '\n')
-#Authored by mostly nick :)
 
 def process_file(input_file, output_file):
     # Step 1: Read file and initialize IDcount
@@ -1480,7 +1341,6 @@ if __name__ == "__main__":
     output_file = "prepped3.txt"
 
     process_file(input_file, output_file)
-#Authored by mostly nick :)
 def compare_files(file1, file2, output_file):
     # Reading the first file into a dictionary
     preppedcount2 = {}
@@ -1506,7 +1366,7 @@ def compare_files(file1, file2, output_file):
 
 # Usage
 compare_files('preppedcount2.txt', 'prepped3.txt', 'ItemOutput.txt')
-#Authored by mostly nick :)
+
 def compare_files(prepped3_file, preppedcount2_file, output_file):
     # Read lines from both files
     with open(prepped3_file, 'r') as file1, open(preppedcount2_file, 'r') as file2:
@@ -1539,7 +1399,6 @@ output_file = 'PreppedItemOutput.txt'
 
 # Call the function to compare files and write output
 compare_files(prepped3_file, preppedcount2_file, output_file)
-#Authored by mostly nick :)
 # Function to read lines from a file and return them as a list
 def read_lines_from_file(filepath):
     with open(filepath, 'r') as file:
@@ -1580,7 +1439,7 @@ output_file = 'PreppedItemCount_Filtered.txt'
 
 # Run the filtering process
 filter_prepped_item_output(prepped_item_file, ids_item_file, output_file)
-#Authored by mostly nick :)
+
 
 # Define the file paths
 input_file_path = 'PreppedItemCount_Filtered.txt'
@@ -1631,7 +1490,8 @@ for file_name in files_to_delete:
     if os.path.exists(file_name):
         os.remove(file_name)
         #print(f"Deleted {file_name}")
-#Authored by mostly nick :)
+
+#print("Cleanup complete.")
 def read_file(filepath):
     """Read the content of a file and return it as a list of lines."""
     with open(filepath, 'r') as file:
@@ -1690,7 +1550,6 @@ def remove_37711_from_line(file_path):
 if __name__ == '__main__':
   file_path = 'Output/AltoBagMacro.txt'
   remove_37711_from_line(file_path)
-#Authored by mostly nick :)
 
 # Regex pattern to match numbers of 3-, 4-, or 5-digits
 number_pattern = r'\b\d{3,5}\b'
@@ -1748,7 +1607,6 @@ if os.path.exists(input_file):
 
     # Delete the input file after processing
     os.remove(input_file)
-#Authored by mostly nick :)
 
 def extract_link_numbers(input_filename, output_filename):
     # Check if Recipient.txt exists and has content
@@ -1788,7 +1646,9 @@ def extract_link_numbers(input_filename, output_filename):
 input_filename = 'Input/DataStore_Containers.lua'
 output_filename = 'Output/BagIDs.txt'
 extract_link_numbers(input_filename, output_filename)
-#Authored by mostly nick :)
+
+#print(f"Extracted numbers have been written to {output_filename}")
+
 
 def read_lua_file(file_path):
     """Reads the content of a LUA file."""
@@ -1832,7 +1692,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-#Authored by mostly nick :)
+
 
 def extract_numbers(input_file, output_file):
     """
@@ -1867,7 +1727,6 @@ if __name__ == "__main__":
     input_file = "Input/DataStore_Currencies.lua"
     output_file = "Output/CurrencyOutput.txt"
     extract_numbers(input_file, output_file)
-#Authored by mostly nick :)
 
 def extract_number(line):
     # Regex pattern to match 5-digit number
@@ -1955,7 +1814,7 @@ try:
             write_formatted_output(output_file, entries, playername)
 except FileNotFoundError:
     print(f"Error: File '{input_filename}' not found.")
-#Authored by mostly nick :)
+
 def extract_info(input_file, temp_file):
     """
     Extracts words between first two quotation marks and only digits from the last number per line,
@@ -2004,7 +1863,6 @@ input_file = "Input/DataStore_Reputations.lua"
 temp_file = "temp.txt"
 extract_info(input_file, temp_file)
 
-#Authored by mostly nick :)
 
 def compare_and_create_output(temp_file, ids_file):
   """
@@ -2049,7 +1907,7 @@ ids_file = "References/IDs.txt"
 
 # Compare and create output
 compare_and_create_output(temp_file, ids_file)
-#Authored by Zyyn
+
 def extract_numbers(input_file, output_file):
     seen_numbers = set()  # Set to track seen numbers
     
@@ -2080,7 +1938,7 @@ if __name__ == "__main__":
     input_file = 'Input/DataStore_Pets.lua'  # Input file name
     output_file = 'Output/PetImport.txt'  # Output file name with .txt extension
     extract_numbers(input_file, output_file)
-#Authored by mostly nick :)
+
 
 def extract_money_numbers(filename):
     money_numbers = []
@@ -2112,7 +1970,6 @@ with open(output_filename, 'w') as outfile:
 
 # Print the count of extracted numbers
 print(f"Copper extracted: {number}")
-#Authored by mostly nick :)
 with open('Output/AchievementGranter.txt', 'r') as input_file:
     # Read all lines from the file
     lines = input_file.readlines()
@@ -2127,7 +1984,6 @@ with open('Output/X0-DualSpecialization.txt', 'w') as output_file:
             break  # Stop searching after finding the first occurrence
 
 #print("Dual Talent Specialization captured.")
-#Authored by mostly nick :)
 
 def extract_numbers(input_file, output_file):
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
@@ -2147,7 +2003,8 @@ output_file = 'Output/ProfessionSpellIDs.txt'
 
 # Call the function to extract numbers
 extract_numbers(input_file, output_file)
-#Authored by mostly nick :)
+
+#print("Extraction completed!")
 
 def extract_data(input_file, output_file):
     # Open input file for reading
@@ -2181,7 +2038,6 @@ output_file = "10-skills.txt"
 
 # Call the function to extract data and write to the output file
 extract_data(input_file, output_file)
-#Authored by mostly nick :)
 def delete_lines_with_specific_text(input_file, output_file):
     # Open input file for reading
     with open(input_file, "r") as input_f:
@@ -2212,7 +2068,8 @@ output_file = "11-skills.txt"
 
 # Call the function to delete lines with specific text
 delete_lines_with_specific_text(input_file, output_file)
-#Authored by mostly nick :)
+
+#print("Skills cleaned up and prepared for macroing.")
 def replace_skills(input_file, output_file):
     cooking_mapping = {
         75: "2550",
@@ -2422,7 +2279,8 @@ input_file = "11-skills.txt"
 output_file = "12-skills.txt"
 
 replace_skills(input_file, output_file)
-#Authored by mostly nick :)
+
+#print("Skill names replaced with corresponding Spell ID based on max skill level possible.")
 def extract_armor(filename, output_file):
 
   armor_codes = {
@@ -2445,7 +2303,8 @@ input_file = "10-skills.txt"
 output_file = "Output/Armor.txt"
 
 extract_armor(input_file, output_file)
-#Authored by mostly nick :)
+
+#print(f"Extracted armor codes written to '{output_file}'.")
 
 def replace_lines(input_file, output_file):
     # Define the mapping of words to numbers
@@ -2509,7 +2368,8 @@ output_file = "SkillSpellIDMacro.txt"
 
 # Call the function to replace lines with specified strings before the colon and delete the "Defense" line
 replace_lines(input_file, output_file)
-#Authored by mostly nick :)
+
+#print("Skills with no Spell ID cleaned from macro.")
 
 # Skill mapping dictionary containing profession names as keys and skill IDs as values
 skill_mapping = {
@@ -2585,8 +2445,6 @@ replace_professions(input_file, output_file)
 # Delete the remaining input file
 os.remove("10-skills.txt")
 
-#Authored by mostly nick :)
-
 def find_lua_file(filename):
   if os.path.isfile(filename):
     return filename
@@ -2608,7 +2466,7 @@ if lua_file:
   remove_line_breaks_and_tabs(lua_file)
 else:
   print("ERROR: EveryQuestData.lua not found. Please check that file is present if transferring quest progress.")
-#Authored by mostly nick :)
+
 
 # Check if "tempquest.txt" exists
 if os.path.exists("tempquest.txt"):
@@ -2643,14 +2501,12 @@ if os.path.exists("tempquest.txt"):
 
   # Delete the tempquest.txt file
   os.remove("tempquest.txt")
-#Authored by Lortz
 with open("Output/2-macro_quests.txt",'w') as out, open("Input/DataStore_Quests.lua","r") as fi:
 	text=fi.readlines()
 	for line in text:
 		if "Hquest:" in line:
 			out.write(".quest add " + line.split(":")[1]+"\n")
 
-#Authored by mostly nick :)
 
 def create_and_write_file(file_path, text):
   """Creates a file at the specified path and writes the given text to it."""
@@ -2665,9 +2521,6 @@ if __name__ == "__main__":
   file_path = "Output/Z-Z-InnTeleport.txt"
   text = ".gm visible on\n.tele dalainn\n"
   create_and_write_file(file_path, text)
-
-
-#Authored by mostly nick :)
 
 def combine_text_files(folder_path, output_file):
     """
@@ -2722,7 +2575,8 @@ os.remove("temp_output.txt")
 os.remove("main_spec.txt")
 os.remove("sec_spec.txt")
 #os.remove("out_macro_file.txt")
-#Authored by mostly nick :)
+
+
 
 def copy_files_to_parent_directories(source_dir):
     # Get the absolute path of the current directory
@@ -2779,24 +2633,10 @@ files = os.listdir(current_directory)
 # Filter out only .txt files
 txt_files = [file for file in files if file.endswith('.txt')]
 
-# Delete each .txt file in the current directory
+# Delete each .txt file
 for txt_file in txt_files:
     file_path = os.path.join(current_directory, txt_file)
     os.remove(file_path)
-
-# Define paths for NameOverride.txt and AccountOverride.txt in the parent directory
-name_override_path = os.path.join(current_directory, '..', 'NameOverride.txt')
-account_override_path = os.path.join(current_directory, '..', 'AccountOverride.txt')
-
-# Delete NameOverride.txt if it exists
-if os.path.exists(name_override_path):
-    os.remove(name_override_path)
-
-# Delete AccountOverride.txt if it exists
-if os.path.exists(account_override_path):
-    os.remove(account_override_path)
-
-#Authored by mostly nick :)
 # Open the file for reading
 with open('Input/DataStore_Characters.lua', 'r') as file:
     lines = file.readlines()

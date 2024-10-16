@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 file_path = "../MacroTalentsPrimary.txt"
 string_to_remove = ".cast 63624"
 lines_to_append = [
@@ -19,6 +18,4 @@ else:
     modified_lines.extend(lines_to_append)
     with open(file_path, 'w') as file:
         file.writelines(modified_lines)
-
-
 

@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def compare_files(prepped3_file, preppedcount2_file, output_file):
     # Read lines from both files
     with open(prepped3_file, 'r') as file1, open(preppedcount2_file, 'r') as file2:

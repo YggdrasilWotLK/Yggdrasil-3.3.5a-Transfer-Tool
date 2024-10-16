@@ -1,5 +1,0 @@
-# Ignore all .lua files in dir and subdirs
-*.txt
-*.wtf
-*.md5
-*.lua

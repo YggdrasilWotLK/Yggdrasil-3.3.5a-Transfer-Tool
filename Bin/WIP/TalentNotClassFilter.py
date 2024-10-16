@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 def main():
     spell_file = 'References/Spell.txt'
     class_id_file = 'References/Class-ID.txt'

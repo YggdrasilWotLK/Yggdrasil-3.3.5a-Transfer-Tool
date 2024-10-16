@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 # Open the input file for reading
 with open('Output/X1-PrimarySpec.txt', 'r') as input_file:
     # Open the output files for writing

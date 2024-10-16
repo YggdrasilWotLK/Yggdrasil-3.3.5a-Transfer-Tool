@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import os
 import re
 
@@ -30,6 +29,3 @@ with open(output_file, "w") as output:
     output.write("/in 20 /s #learnspell " + digit + "\n")
 
 #print("Extraction completed! Output written to SpellsMacro.txt in Output folder.")
-input_file.close()
-
-output_file.close()

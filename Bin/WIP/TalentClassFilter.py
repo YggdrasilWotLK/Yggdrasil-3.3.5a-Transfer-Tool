@@ -1,4 +1,3 @@
-#Authored by mostly nick :)
 import csv
 
 def copy_matching_rows(talent_spells_file, class_id_file, output_file):
