@@ -12,7 +12,7 @@ Instructions:
 0, Prep: Delete contents of RawData folder
 1. Copy account WTF folder contents (WoW-directory\WTF\Account\Accountname\) and place in RawData folder
 2. Depending on your OS, there's two approaches:
-2a. Windows: Assure you have Python set up (Windows Store or manually, both work fine) and PIP-ed, and run the CMD in the root dir. It will detect
+2a. Windows: Assure you have Python set up (Windows Store or manually, both work fine) and PIP-ed, and run the CMD in the root dir. It will detect whether you are transferring retail or 3.3.5a data.
 2b. Linux: Assure you have Python set up and PIP-ed. Determine whether the data you are trying to transfer is originating from retail or 3.3.5a and run the mega_transfer script in the respective expansion source to convert to Yggdrasil's import script.
 3. Enter variables requested by script.
 4. Open the produced CombinedMacroOutput.txt in root dir and copy into SDM (https://felbite.com/addon/4135-superdupermacro/). If doing 3.3.5a transfer, consider using the main and off spec macros too (not applicable for retail due to talent tree differences).
